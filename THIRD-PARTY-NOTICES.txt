@@ -1,0 +1,189 @@
+THIRD-PARTY SOFTWARE NOTICES
+
+Bowdler uses the following open source components:
+
+────────────────────────────────────────────────────────────
+Tauri
+License: Apache 2.0
+Copyright (c) 2019-2024 Tauri Contributors
+https://github.com/tauri-apps/tauri
+
+Licensed under the Apache License, Version 2.0. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+────────────────────────────────────────────────────────────
+MLX
+License: MIT
+Copyright (c) 2023 Apple Inc.
+https://github.com/ml-explore/mlx
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+────────────────────────────────────────────────────────────
+mlx-whisper
+License: MIT
+Copyright (c) 2023 Apple Inc.
+https://github.com/ml-explore/mlx-examples
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+────────────────────────────────────────────────────────────
+Vosk Speech Recognition
+License: Apache 2.0
+Copyright (c) Alphacephei Inc.
+https://alphacephei.com/vosk
+
+Licensed under the Apache License, Version 2.0. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+────────────────────────────────────────────────────────────
+ONNX Runtime
+License: MIT
+Copyright (c) Microsoft Corporation
+https://github.com/microsoft/onnxruntime
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+────────────────────────────────────────────────────────────
+pydub
+License: MIT
+Copyright (c) 2011 James Robert
+https://github.com/jiaaro/pydub
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+────────────────────────────────────────────────────────────
+NumPy
+License: BSD 3-Clause
+Copyright (c) 2005-2025 NumPy Developers
+https://numpy.org
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+────────────────────────────────────────────────────────────
+SoundFile
+License: BSD 3-Clause
+Copyright (c) 2013 Bastian Bechtold
+https://github.com/bastibe/python-soundfile
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+────────────────────────────────────────────────────────────
+imageio-ffmpeg
+License: BSD 2-Clause
+Copyright (c) 2019-2025 imageio contributors
+https://github.com/imageio/imageio-ffmpeg
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+This software includes binaries of FFmpeg, licensed under the GNU Lesser
+General Public License (LGPL) version 2.1 or later.
+FFmpeg source code is available at https://ffmpeg.org
+
+────────────────────────────────────────────────────────────
+deep-translator
+License: MIT
+Copyright (c) 2020 Nidhal Baccouri
+https://github.com/nidhaloff/deep-translator
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+────────────────────────────────────────────────────────────
+Hugging Face Hub
+License: Apache 2.0
+Copyright (c) Hugging Face Inc.
+https://github.com/huggingface/huggingface_hub
+
+Licensed under the Apache License, Version 2.0. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+────────────────────────────────────────────────────────────
+tiktoken
+License: MIT
+Copyright (c) 2022 OpenAI, Shantanu Jain
+https://github.com/openai/tiktoken
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+────────────────────────────────────────────────────────────
+Silero VAD
+License: MIT
+Copyright (c) 2020-present Silero Team
+https://github.com/snakers4/silero-vad
+
+This software uses the Silero VAD ONNX model.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
