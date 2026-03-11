@@ -73,10 +73,10 @@
 
 ### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
 
-### What's new in 1.0.5
-- Fixed subtitle desync problem
-- Fixed subtitles starting later than they should
-- Added a new feature - Scene Detection, which splits subtitles when the scene changes
+### Novedades de la versión 1.0.5
+- Se solucionó el problema de desincronización de los subtítulos
+- Se solucionó el problema de que los subtítulos comenzaban más tarde de lo debido
+- Se añadió una nueva función: Detección de escena, que divide los subtítulos cuando la escena cambia
 
 [View Changelogs →](https://github.com/whyaang/Bowdler/releases)
 
