@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.4-blue)
+![Version](https://img.shields.io/badge/version-1.0.5-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,12 +71,12 @@
 
 </div>
 
-### [📥 Bowdler 1.0.4.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.4/Bowdler_1.0.4_aarch64.dmg) - 7 марта 2026 - 45 MB
+### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
 
-### Что нового в версии 1.0.4
-- Исправлено определение тишины в длинных видео
-- Улучшена скорость экспорта субтитров
-- Исправление ошибок
+### Что нового в версии 1.0.5
+- Исправлена ​​проблема рассинхронизации субтитров
+- Исправлено запаздывание субтитров
+- Добавлена ​​новая функция — определение сцены, которая разделяет субтитры при смене сцены
 
 [Смотреть список изменений →](https://github.com/whyaang/Bowdler/releases)
 
