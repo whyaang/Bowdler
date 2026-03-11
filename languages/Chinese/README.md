@@ -71,12 +71,12 @@
 
 </div>
 
-### [📥 Bowdler 1.0.4.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.4/Bowdler_1.0.4_aarch64.dmg) - 2026年3月7日 - 45 MB
+### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
 
-### 1.0.4 更新内容
-- 修复长视频的静音检测问题
-- 提升字幕导出速度
-- 修复其他已知问题
+### 1.0.5 版本更新内容
+- 修复了字幕不同步的问题
+- 修复了字幕延迟显示的问题
+- 新增了场景检测功能，可在场景切换时自动分割字幕。
 
 [查看更新日志 →](https://github.com/whyaang/Bowdler/releases)
 
