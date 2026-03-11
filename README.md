@@ -71,12 +71,12 @@
 
 </div>
 
-### [📥 Bowdler 1.0.4.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.4/Bowdler_1.0.4_aarch64.dmg) - March 7rd, 2026 - 45 MB
+### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
 
-### What's new in 1.0.4
-- Fixed silence detection on long videos
-- Improved subtitle export speed
-- Bug fixes
+### What's new in 1.0.5
+- Fixed subtitle desync problem
+- Fixed subtitles starting later than they should
+- Added a new feature - Scene Detection, which splits subtitles when the scene changes
 
 [View Changelogs →](https://github.com/whyaang/Bowdler/releases)
 
