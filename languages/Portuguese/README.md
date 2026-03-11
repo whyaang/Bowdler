@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.4-blue)
+![Version](https://img.shields.io/badge/version-1.0.5-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,12 +71,12 @@
 
 </div>
 
-### [📥 Bowdler 1.0.4.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.4/Bowdler_1.0.4_aarch64.dmg) - 7 de março de 2026 - 45 MB
+### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
 
-### Novidades na versão 1.0.4
-- Correção na detecção de silêncio em vídeos longos
-- Melhoria na velocidade de exportação de legendas
-- Correções de bugs
+### Novidades na versão 1.0.5
+- Corrigido o problema de dessincronização das legendas
+- Corrigido o problema das legendas iniciarem mais tarde do que deveriam
+- Adicionada uma nova funcionalidade: Detecção de Cena, que divide as legendas quando a cena muda
 
 [Ver registro de alterações →](https://github.com/whyaang/Bowdler/releases)
 
