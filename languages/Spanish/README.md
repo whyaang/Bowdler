@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.4-blue)
+![Version](https://img.shields.io/badge/version-1.0.5-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,7 +71,7 @@
 
 </div>
 
-### [📥 Bowdler 1.0.4.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.4/Bowdler_1.0.4_aarch64.dmg) - 7 de marzo de 2026 - 45 MB
+### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
 
 ### Novedades en 1.0.4
 - Corrección de la detección de silencios en videos largos
