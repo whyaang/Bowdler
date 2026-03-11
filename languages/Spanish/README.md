@@ -73,10 +73,10 @@
 
 ### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
 
-### Novedades en 1.0.4
-- Corrección de la detección de silencios en videos largos
-- Mejora en la velocidad de exportación de subtítulos
-- Correcciones de errores
+### Novedades de la versión 1.0.5
+- Se solucionó el problema de desincronización de los subtítulos
+- Se solucionó el problema de que los subtítulos comenzaban más tarde de lo debido
+- Se añadió una nueva función: Detección de escena, que divide los subtítulos cuando la escena cambia
 
 [Ver registro de cambios →](https://github.com/whyaang/Bowdler/releases)
 
