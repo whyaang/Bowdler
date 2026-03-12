@@ -122,11 +122,15 @@ Transcribes your video using AI and generates an SRT/VTT/FCPXML subtitle file.
 |---|---|
 | **Chars per Line** | Maximum characters in a single subtitle line. |
 | **Lines per Sub** | 1 or 2 lines per subtitle block. |
+| **Split at sentences** | Automatically starts a new subtitle at `.` `!` `?` - works regardless of subtitle length. Recommended ON. |
+| **Scene Detection** | Detects hard cuts in the video and forces a subtitle break at each scene change. |
 | **One Word** | Shows one word at a time. |
+| **Remove Periods** | Strips sentence-ending periods from subtitle text. |
+| **Speaker Dash** | Prepends `- ` to every subtitle line. |
 | **Text Case** | Keep original case, convert to ALL CAPS, or all lowercase. |
 | **Max Duration** | Maximum display time for a single subtitle block. |
 | **Min Pause** | Minimum gap between consecutive subtitle blocks. |
-| **Linger** | How long the subtitle stays on screen after the speech ends. |
+| **Linger** | How long the subtitle stays on screen after the speech ends. Increase to make subtitles overlap into the next — raise it enough and subtitles will display without gaps. |
 | **Translation** | Auto-translate subtitles to another language via Google Translate (requires internet). |
 | **Formats** | Export as SRT (universal), VTT (web), or FCPXML (Final Cut Pro). |
 | **FCPXML Settings** | Frame rate and minimum gap between captions for Final Cut Pro. Increase gap if FCP reports overlapping clips. |

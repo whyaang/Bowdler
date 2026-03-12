@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.5-blue)
+![Version](https://img.shields.io/badge/version-1.0.6-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,12 +71,16 @@
 
 </div>
 
-### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
+### [📥 Bowdler 1.0.6.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.6/Bowdler_1.0.6_aarch64.dmg) - March 12th, 2026 - 45 MB
 
-### What's new in 1.0.5
-- Fixed subtitle desync problem
-- Fixed subtitles starting later than they should
-- Added a new feature - Scene Detection, which splits subtitles when the scene changes
+### What's new in 1.0.6
+- Split at sentences: breaks subtitle at `.` `!` `?` regardless of length
+- Smart grouping: merges short adjacent subtitles, rebalances long/short pairs
+- Connect: subtitles with gap <700ms are extended to touch the next one
+- Fixed hanging subtitle (linger was overwriting end time)
+- Gap now enforced for SRT/VTT
+- Profanity: fixed word repetition, default mute 90%
+- Scene Detection: adaptive threshold + blackframe detection
 
 [View Changelogs →](https://github.com/whyaang/Bowdler/releases)
 
