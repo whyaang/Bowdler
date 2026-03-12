@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.5-blue)
+![Version](https://img.shields.io/badge/version-1.0.6-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,12 +71,16 @@
 
 </div>
 
-### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
+### [📥 Bowdler 1.0.6.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.6/Bowdler_1.0.6_aarch64.dmg) - March 12th, 2026 - 45 MB
 
-### Novedades de la versión 1.0.5
-- Se solucionó el problema de desincronización de los subtítulos
-- Se solucionó el problema de que los subtítulos comenzaban más tarde de lo debido
-- Se añadió una nueva función: Detección de escena, que divide los subtítulos cuando la escena cambia
+### Novedades de la versión 1.0.6
+- División por frases: divide el subtítulo en `.` `!` `?` sin importar la longitud
+- Agrupación inteligente: fusiona subtítulos cortos adyacentes, reequilibra pares largos/cortos
+- Conexión: los subtítulos con pausa <700ms se extienden hasta el inicio del siguiente
+- Corregido subtítulo colgante (el retraso sobreescribía el tiempo de fin)
+- La pausa mínima ahora funciona para SRT/VTT
+- Censura: corregida repetición de palabras, silencio predeterminado 90%
+- Detección de escenas: umbral adaptativo + detección de fotogramas negros
 
 [Ver registro de cambios →](https://github.com/whyaang/Bowdler/releases)
 

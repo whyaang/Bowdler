@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.5-blue)
+![Version](https://img.shields.io/badge/version-1.0.6-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,12 +71,16 @@
 
 </div>
 
-### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
+### [📥 Bowdler 1.0.6.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.6/Bowdler_1.0.6_aarch64.dmg) - March 12th, 2026 - 45 MB
 
-### Что нового в версии 1.0.5
-- Исправлена ​​проблема рассинхронизации субтитров
-- Исправлено запаздывание субтитров
-- Добавлена ​​новая функция — определение сцены, которая разделяет субтитры при смене сцены
+### Что нового в версии 1.0.6
+- Деление по предложениям: субтитр разбивается на `.` `!` `?` независимо от длины
+- Умная группировка: объединяет короткие соседние субтитры, перебалансирует длинные пары
+- Соединение: субтитры с паузой <700мс продлеваются до начала следующего
+- Исправлен зависающий субтитр (задержка перезаписывала время окончания)
+- Минимальный промежуток теперь работает для SRT/VTT
+- Цензура: исправлено повторение слов, мут по умолчанию 90%
+- Определение сцены: адаптивный порог + обнаружение чёрных кадров
 
 [Смотреть список изменений →](https://github.com/whyaang/Bowdler/releases)
 

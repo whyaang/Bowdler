@@ -122,11 +122,15 @@ Transcreve seu vídeo usando IA e gera um arquivo de legendas SRT/VTT/FCPXML.
 |---|---|
 | **Caracteres por linha** | Número máximo de caracteres em uma única linha de legenda. |
 | **Linhas por legenda** | 1 ou 2 linhas por bloco de legenda. |
+| **Dividir nas frases** | Inicia automaticamente uma nova legenda em `.` `!` `?` — funciona independentemente do comprimento. Recomendado ativado. |
+| **Detecção de cenas** | Detecta cortes bruscos no vídeo e força uma quebra de legenda em cada mudança de cena. |
 | **Uma palavra** | Exibe uma palavra por vez. |
+| **Remover pontos** | Remove pontos finais de frase do texto das legendas. |
+| **Travessão do locutor** | Adiciona `- ` no início de cada linha de legenda. |
 | **Capitalização** | Manter capitalização original, converter para MAIÚSCULAS ou minúsculas. |
 | **Duração máxima** | Tempo máximo de exibição de um único bloco de legenda. |
 | **Pausa mínima** | Intervalo mínimo entre blocos de legenda consecutivos. |
-| **Permanência** | Por quanto tempo a legenda permanece na tela após o fim da fala. |
+| **Permanência** | Por quanto tempo a legenda permanece na tela após o fim da fala. Aumente para que as legendas se estendam até a próxima — com um valor suficiente, as legendas serão exibidas sem interrupções. |
 | **Tradução** | Traduz automaticamente as legendas para outro idioma via Google Tradutor (requer internet). |
 | **Formatos** | Exportar como SRT (universal), VTT (web) ou FCPXML (Final Cut Pro). |
 | **Configurações FCPXML** | Taxa de quadros e intervalo mínimo entre legendas para o Final Cut Pro. Aumente o intervalo se o FCP reportar clipes sobrepostos. |

@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.5-blue)
+![Version](https://img.shields.io/badge/version-1.0.6-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,12 +71,16 @@
 
 </div>
 
-### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
+### [📥 Bowdler 1.0.6.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.6/Bowdler_1.0.6_aarch64.dmg) - March 12th, 2026 - 45 MB
 
-### Novidades na versão 1.0.5
-- Corrigido o problema de dessincronização das legendas
-- Corrigido o problema das legendas iniciarem mais tarde do que deveriam
-- Adicionada uma nova funcionalidade: Detecção de Cena, que divide as legendas quando a cena muda
+### Novidades na versão 1.0.6
+- Divisão por frases: divide a legenda em `.` `!` `?` independentemente do comprimento
+- Agrupamento inteligente: mescla legendas curtas adjacentes, reequilibra pares longos/curtos
+- Conexão: legendas com pausa <700ms são estendidas até o início da próxima
+- Corrigida legenda suspensa (o tempo de permanência sobrescrevia o tempo de fim)
+- Pausa mínima agora funciona para SRT/VTT
+- Censura: corrigida repetição de palavras, mudo padrão 90%
+- Detecção de cenas: limiar adaptativo + detecção de quadros negros
 
 [Ver registro de alterações →](https://github.com/whyaang/Bowdler/releases)
 

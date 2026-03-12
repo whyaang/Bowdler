@@ -122,11 +122,15 @@ Transcribe tu vídeo usando IA y genera un archivo de subtítulos SRT/VTT/FCPXML
 |---|---|
 | **Caracteres por línea** | Número máximo de caracteres en una sola línea de subtítulos. |
 | **Líneas por subtítulo** | 1 o 2 líneas por bloque de subtítulos. |
+| **Dividir en frases** | Comienza automáticamente un nuevo subtítulo en `.` `!` `?` — funciona sin importar la longitud. Recomendado activado. |
+| **Detección de escenas** | Detecta cortes bruscos en el vídeo y fuerza un nuevo subtítulo en cada cambio de escena. |
 | **Una palabra** | Muestra una palabra a la vez. |
+| **Eliminar puntos** | Elimina los puntos finales de oración del texto de los subtítulos. |
+| **Guión de hablante** | Añade `- ` al inicio de cada línea de subtítulo. |
 | **Mayúsculas/minúsculas** | Conservar mayúsculas originales, convertir a MAYÚSCULAS o a minúsculas. |
 | **Duración máxima** | Tiempo máximo de visualización de un bloque de subtítulos. |
 | **Pausa mínima** | Intervalo mínimo entre bloques de subtítulos consecutivos. |
-| **Retraso** | Cuánto tiempo permanece el subtítulo en pantalla tras terminar el habla. |
+| **Retraso** | Cuánto tiempo permanece el subtítulo en pantalla tras terminar el habla. Auméntalo para que los subtítulos se extiendan hasta el siguiente — con un valor suficiente, los subtítulos se mostrarán sin interrupciones. |
 | **Traducción** | Traduce automáticamente los subtítulos a otro idioma mediante Google Translate (requiere internet). |
 | **Formatos** | Exportar como SRT (universal), VTT (web) o FCPXML (Final Cut Pro). |
 | **Ajustes FCPXML** | Velocidad de fotogramas e intervalo mínimo entre subtítulos para Final Cut Pro. Aumenta el intervalo si FCP reporta clips superpuestos. |
