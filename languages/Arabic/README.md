@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.5-blue)
+![Version](https://img.shields.io/badge/version-1.0.6-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,12 +71,16 @@
 
 </div>
 
-### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
+### [📥 Bowdler 1.0.6.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.6/Bowdler_1.0.6_aarch64.dmg) - March 12th, 2026 - 45 MB
 
-### ما الجديد في الإصدار 1.0.5
-- تم إصلاح مشكلة عدم تزامن الترجمة
-- تم إصلاح مشكلة بدء الترجمة متأخرًا عن المعتاد
-- تمت إضافة ميزة جديدة - خاصية الكشف عن المشاهد، والتي تفصل الترجمة عند تغيير المشهد
+### ما الجديد في الإصدار 1.0.6
+- التقسيم عند الجمل: يقسّم الترجمة عند `.` `!` `?` بغض النظر عن الطول
+- التجميع الذكي: يدمج الترجمات القصيرة المتجاورة، ويعيد توازن الأزواج الطويلة/القصيرة
+- الربط: الترجمات ذات الفجوة أقل من 700 مللي ثانية تمتد حتى بداية التالية
+- إصلاح الترجمة المعلّقة (كان التأخير يكتب فوق وقت النهاية)
+- الحد الأدنى للفجوة يعمل الآن مع SRT/VTT
+- الرقابة: إصلاح تكرار الكلمات، الكتم الافتراضي 90%
+- الكشف عن المشاهد: عتبة تكيّفية + الكشف عن الإطارات السوداء
 
 [عرض سجل التغييرات →](https://github.com/whyaang/Bowdler/releases)
 

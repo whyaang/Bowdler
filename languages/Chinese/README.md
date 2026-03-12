@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.5-blue)
+![Version](https://img.shields.io/badge/version-1.0.6-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,12 +71,16 @@
 
 </div>
 
-### [📥 Bowdler 1.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.5/Bowdler_1.0.5_aarch64.dmg) - March 11th, 2026 - 45 MB
+### [📥 Bowdler 1.0.6.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.6/Bowdler_1.0.6_aarch64.dmg) - March 12th, 2026 - 45 MB
 
-### 1.0.5 版本更新内容
-- 修复了字幕不同步的问题
-- 修复了字幕延迟显示的问题
-- 新增了场景检测功能，可在场景切换时自动分割字幕。
+### 1.0.6 版本更新内容
+- 按句子分割：在 `.` `!` `?` 处断开字幕，不受长度限制
+- 智能分组：合并短小相邻字幕，重新平衡长短不均的字幕对
+- 连接：间隔 <700ms 的字幕自动延伸至下一条开始
+- 修复了字幕悬停问题（停留时间覆盖了结束时间）
+- 最短间隔现在适用于 SRT/VTT
+- 过滤：修复了词语重复问题，默认静音 90%
+- 场景检测：自适应阈值 + 黑帧检测
 
 [查看更新日志 →](https://github.com/whyaang/Bowdler/releases)
 
