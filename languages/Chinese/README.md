@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.6-blue)
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,16 +71,18 @@
 
 </div>
 
-### [📥 Bowdler 1.0.6.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.6/Bowdler_1.0.6_aarch64.dmg) - March 12th, 2026 - 45 MB
+### [📥 Bowdler 1.1.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.0/Bowdler_1.1.0_aarch64.dmg) - March 14th, 2026 - 45 MB
 
-### 1.0.6 版本更新内容
-- 按句子分割：在 `.` `!` `?` 处断开字幕，不受长度限制
-- 智能分组：合并短小相邻字幕，重新平衡长短不均的字幕对
-- 连接：间隔 <700ms 的字幕自动延伸至下一条开始
-- 修复了字幕悬停问题（停留时间覆盖了结束时间）
-- 最短间隔现在适用于 SRT/VTT
-- 过滤：修复了词语重复问题，默认静音 90%
-- 场景检测：自适应阈值 + 黑帧检测
+### 1.1.0 版本更新内容
+- 字幕：FCPXML 样式编辑器 — 直接在应用中自定义字体、大小、位置、填充颜色/透明度和轮廓，并提供实时预览
+- 去静音：删除点击声 — 消除有背景音乐时切割点出现的咔哒声
+- 去静音：FCP Autocut — 导出已完成剪辑的 FCPXML 文件
+- 审查：FCP Autocut — 导出已完成剪辑的 FCPXML 文件
+- 更好的时间轴缩放 — 以光标为中心的平滑捏合/滚动缩放
+- AAC 支持 — 原生处理 AAC 音频文件
+- 导出质量和速度提升
+- 更好的导出流程 — 导出后留在当前页面，结果即时可见，一键返回
+- 界面改进
 
 [查看更新日志 →](https://github.com/whyaang/Bowdler/releases)
 
