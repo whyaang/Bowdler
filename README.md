@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.6-blue)
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,16 +71,18 @@
 
 </div>
 
-### [📥 Bowdler 1.0.6.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.6/Bowdler_1.0.6_aarch64.dmg) - March 12th, 2026 - 45 MB
+### [📥 Bowdler 1.1.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.0/Bowdler_1.1.0_aarch64.dmg) - March 14th, 2026 - 45 MB
 
-### What's new in 1.0.6
-- Split at sentences: breaks subtitle at `.` `!` `?` regardless of length
-- Smart grouping: merges short adjacent subtitles, rebalances long/short pairs
-- Connect: subtitles with gap <700ms are extended to touch the next one
-- Fixed hanging subtitle (linger was overwriting end time)
-- Gap now enforced for SRT/VTT
-- Profanity: fixed word repetition, default mute 90%
-- Scene Detection: adaptive threshold + blackframe detection
+### What's new in 1.1.0
+- Subtitles: FCPXML Style editor - customize font, size, position, face color/opacity, and outline with a live preview
+- Silence Removal: Delete Click Sound - removes the click at cut points when background music is present
+- Silence Removal: FCP Autocut - exports an FCPXML where the video is already cut and trimmed
+- Censorship: FCP Autocut - exports an FCPXML where the video is already cut and trimmed
+- Better timeline zoom - smooth pinch/scroll zoom centered on cursor position
+- AAC Support - process AAC audio files natively
+- Export quality & speed improvements - faster processing with better output quality
+- Better Export flow - stay on screen after export, see results inline, jump back with one click
+- UI Improvements
 
 [View Changelogs →](https://github.com/whyaang/Bowdler/releases)
 

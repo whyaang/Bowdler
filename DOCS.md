@@ -130,7 +130,7 @@ Transcribes your video using AI and generates an SRT/VTT/FCPXML subtitle file.
 | **Text Case** | Keep original case, convert to ALL CAPS, or all lowercase. |
 | **Max Duration** | Maximum display time for a single subtitle block. |
 | **Min Pause** | Minimum gap between consecutive subtitle blocks. |
-| **Linger** | How long the subtitle stays on screen after the speech ends. Increase to make subtitles overlap into the next — raise it enough and subtitles will display without gaps. |
+| **Linger** | How long the subtitle stays on screen after the speech ends. Increase to make subtitles overlap into the next - raise it enough and subtitles will display without gaps. |
 | **Translation** | Auto-translate subtitles to another language via Google Translate (requires internet). |
 | **Formats** | Export as SRT (universal), VTT (web), or FCPXML (Final Cut Pro). |
 | **FCPXML Settings** | Frame rate and minimum gap between captions for Final Cut Pro. Increase gap if FCP reports overlapping clips. |
