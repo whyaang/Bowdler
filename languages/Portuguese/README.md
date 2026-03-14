@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.0.6-blue)
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -71,16 +71,18 @@
 
 </div>
 
-### [📥 Bowdler 1.0.6.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.0.6/Bowdler_1.0.6_aarch64.dmg) - March 12th, 2026 - 45 MB
+### [📥 Bowdler 1.1.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.0/Bowdler_1.1.0_aarch64.dmg) - March 14th, 2026 - 45 MB
 
-### Novidades na versão 1.0.6
-- Divisão por frases: divide a legenda em `.` `!` `?` independentemente do comprimento
-- Agrupamento inteligente: mescla legendas curtas adjacentes, reequilibra pares longos/curtos
-- Conexão: legendas com pausa <700ms são estendidas até o início da próxima
-- Corrigida legenda suspensa (o tempo de permanência sobrescrevia o tempo de fim)
-- Pausa mínima agora funciona para SRT/VTT
-- Censura: corrigida repetição de palavras, mudo padrão 90%
-- Detecção de cenas: limiar adaptativo + detecção de quadros negros
+### Novidades na versão 1.1.0
+- Legendas: editor de estilo FCPXML - personalize fonte, tamanho, posição, cor/opacidade do preenchimento e contorno com visualização ao vivo
+- Remoção de Silêncio: Deletar Som de Clique - remove o clique audível nos pontos de corte quando há música de fundo
+- Remoção de Silêncio: FCP Autocut - exporta um FCPXML com o vídeo já cortado e aparado
+- Censura: FCP Autocut - exporta um FCPXML com o vídeo já cortado e aparado
+- Melhor zoom da timeline - zoom suave por pinça/rolagem centrado na posição do cursor
+- Suporte a AAC - processa arquivos de áudio AAC nativamente
+- Melhorias na qualidade e velocidade de exportação
+- Melhor fluxo de exportação - permaneça na tela atual após exportar, resultados visíveis na hora, voltar com um clique
+- Melhorias na interface
 
 [Ver registro de alterações →](https://github.com/whyaang/Bowdler/releases)
 

@@ -25,7 +25,7 @@
 
 | # | Elemento | Descrição |
 |---|---|---|
-| 1 | **Modo atual** | A aba ativa — Censura, Remoção de silêncio ou Legendas. Clique para trocar de modo. |
+| 1 | **Modo atual** | A aba ativa - Censura, Remoção de silêncio ou Legendas. Clique para trocar de modo. |
 | 2 | **Botão de configurações** | Abre o painel de configurações do modo atual. |
 | 3 | **Botão de tema** | Alterna entre o tema escuro e o claro. |
 | 4 | **Área de upload** | Arraste e solte seu arquivo de mídia aqui, ou clique para abrir o seletor de arquivos. Aceita MP4 · MOV · MP3 · WAV. |
@@ -52,7 +52,7 @@
 | 6 | **Controles de velocidade** | Altera a velocidade de reprodução: 1x · 1.25x · 1.5x · 2x. |
 | 7 | **Controles de zoom** | Aproxima ou afasta a forma de onda para inspecionar segmentos com mais precisão. |
 | 8 | **Controles de reprodução** | Reproduzir/pausar e pular −10s · −1s · +1s · +10s. |
-| 9 | **Silenciar segmento** | Caixa de seleção — controla se este segmento é incluído na exportação. |
+| 9 | **Silenciar segmento** | Caixa de seleção - controla se este segmento é incluído na exportação. |
 | 10 | **Reproduzir segmento** | Pré-visualiza apenas este segmento isoladamente. |
 | 11 | **Palavra detectada** | A palavra marcada pelo modelo para este segmento. |
 | 12 | **Duração** | Marcações de tempo de início e fim do segmento detectado. |
@@ -122,7 +122,7 @@ Transcreve seu vídeo usando IA e gera um arquivo de legendas SRT/VTT/FCPXML.
 |---|---|
 | **Caracteres por linha** | Número máximo de caracteres em uma única linha de legenda. |
 | **Linhas por legenda** | 1 ou 2 linhas por bloco de legenda. |
-| **Dividir nas frases** | Inicia automaticamente uma nova legenda em `.` `!` `?` — funciona independentemente do comprimento. Recomendado ativado. |
+| **Dividir nas frases** | Inicia automaticamente uma nova legenda em `.` `!` `?` - funciona independentemente do comprimento. Recomendado ativado. |
 | **Detecção de cenas** | Detecta cortes bruscos no vídeo e força uma quebra de legenda em cada mudança de cena. |
 | **Uma palavra** | Exibe uma palavra por vez. |
 | **Remover pontos** | Remove pontos finais de frase do texto das legendas. |
@@ -130,7 +130,7 @@ Transcreve seu vídeo usando IA e gera um arquivo de legendas SRT/VTT/FCPXML.
 | **Capitalização** | Manter capitalização original, converter para MAIÚSCULAS ou minúsculas. |
 | **Duração máxima** | Tempo máximo de exibição de um único bloco de legenda. |
 | **Pausa mínima** | Intervalo mínimo entre blocos de legenda consecutivos. |
-| **Permanência** | Por quanto tempo a legenda permanece na tela após o fim da fala. Aumente para que as legendas se estendam até a próxima — com um valor suficiente, as legendas serão exibidas sem interrupções. |
+| **Permanência** | Por quanto tempo a legenda permanece na tela após o fim da fala. Aumente para que as legendas se estendam até a próxima - com um valor suficiente, as legendas serão exibidas sem interrupções. |
 | **Tradução** | Traduz automaticamente as legendas para outro idioma via Google Tradutor (requer internet). |
 | **Formatos** | Exportar como SRT (universal), VTT (web) ou FCPXML (Final Cut Pro). |
 | **Configurações FCPXML** | Taxa de quadros e intervalo mínimo entre legendas para o Final Cut Pro. Aumente o intervalo se o FCP reportar clipes sobrepostos. |
@@ -145,7 +145,7 @@ Transcreve seu vídeo usando IA e gera um arquivo de legendas SRT/VTT/FCPXML.
 
 ### Whisper
 
-Um modelo de reconhecimento de fala neural que roda completamente no seu Mac — nenhum dado sai do seu computador. Usado nos modos de Censura e Legendas para transcrição de alta precisão em muitos idiomas.
+Um modelo de reconhecimento de fala neural que roda completamente no seu Mac - nenhum dado sai do seu computador. Usado nos modos de Censura e Legendas para transcrição de alta precisão em muitos idiomas.
 
 Disponível em quatro tamanhos. Maior = mais lento, mas mais preciso. Esses modelos usam MLX, compatível com Apple Silicon.
 
@@ -170,7 +170,7 @@ Modelos Vosk pequenos (~50–150 MB) podem ser instalados dentro do aplicativo. 
 1.  Acesse  alphacephei.com/vosk/models
 2.  Baixe o zip para o seu idioma
     (ex: vosk-model-pt-fb-v0.1.1 para o modelo grande em português)
-3.  Descompacte — você obterá uma pasta  vosk-model-*
+3.  Descompacte - você obterá uma pasta  vosk-model-*
 4.  Censura → Configurações →
     Modelos → Vosk → Caminho personalizado → 🔍
     Selecione essa pasta
