@@ -19,7 +19,7 @@
 
 ### Tela principal
 
-![Main Screen](images/screenshots/MainScreen.png)
+![Main Screen](../../images/screenshots/MainScreen.png)
 
 <div align="center">
 
@@ -28,7 +28,7 @@
 | 1 | **Modo atual** | A aba ativa - Censura, Remoção de silêncio ou Legendas. Clique para trocar de modo. |
 | 2 | **Botão de configurações** | Abre o painel de configurações do modo atual. |
 | 3 | **Botão de tema** | Alterna entre o tema escuro e o claro. |
-| 4 | **Área de upload** | Arraste e solte seu arquivo de mídia aqui, ou clique para abrir o seletor de arquivos. Aceita MP4 · MOV · MP3 · WAV. |
+| 4 | **Área de upload** | Arraste e solte seu arquivo de mídia aqui, ou clique para abrir o seletor de arquivos. Aceita MP4 · MOV · MP3 · WAV · AAC. |
 | 5 | **Modelo atual** | Mostra o motor de IA ativo e o tamanho do modelo. Clique para alterar o motor ou o modelo. |
 | 6 | **Botão processar** | Inicia a detecção e abre a tela de revisão ao concluir. |
 
@@ -38,7 +38,7 @@
 
 ### Linha do tempo / Tela de revisão
 
-![Timeline Screen](images/screenshots/TimelineScreen.png)
+![Timeline Screen](../../images/screenshots/TimelineScreen.png)
 
 <div align="center">
 
@@ -58,7 +58,7 @@
 | 12 | **Duração** | Marcações de tempo de início e fim do segmento detectado. |
 | 13 | **Intensidade de censura** | Nível de silenciamento por segmento, de 0% a 150%. |
 | 14 | **Botão exportar** | Aplica a censura ou remoção de silêncio e salva o arquivo processado. |
-| 15 | **Exportar para FCP** | Exporta todos os segmentos detectados como marcadores para um arquivo XML do Final Cut Pro. |
+| 15 | **Exportar linha do tempo** | Exporta os segmentos em formato FCPXML ou XML para Final Cut Pro, DaVinci Resolve e Adobe Premiere. |
 
 </div>
 
@@ -70,7 +70,7 @@
 
 Detecta palavrões usando IA e os silencia automaticamente ou os substitui por um som.
 
-![Censorship Settings](images/screenshots/censorship_settings.png)
+![Censorship Settings](../../images/screenshots/censorship_settings.png)
 
 <div align="center">
 
@@ -83,7 +83,7 @@ Detecta palavrões usando IA e os silencia automaticamente ou os substitui por u
 | **Pasta de exportação** | Onde o arquivo de vídeo processado é salvo após a exportação. |
 | **Redefinir** | Restaura as configurações do modo para os valores padrão. |
 | **Dicionários personalizados** | Personaliza os dicionários integrados do aplicativo. Remova ou adicione palavras conforme necessário. |
-| **Marcadores FCP** | Exporta os palavrões detectados como marcadores para o Final Cut Pro. |
+| **Automute / Marcadores** | Exporte os segmentos detectados como linha do tempo automute ou marcadores - em formato FCPXML ou XML. Compatível com Final Cut Pro, DaVinci Resolve e Adobe Premiere. |
 
 </div>
 
@@ -93,7 +93,7 @@ Detecta palavrões usando IA e os silencia automaticamente ou os substitui por u
 
 Detecta pausas silenciosas na fala usando Detecção de Atividade de Voz (VAD) e as marca como segmentos que você pode remover.
 
-![Silence Removal Settings](images/screenshots/silence_removal_settings.png)
+![Silence Removal Settings](../../images/screenshots/silence_removal_settings.png)
 
 <div align="center">
 
@@ -102,9 +102,10 @@ Detecta pausas silenciosas na fala usando Detecção de Atividade de Voz (VAD) e
 | **Limiar VAD** | Sensibilidade da detecção de silêncio. Maior = mais rigoroso. Menor = mais agressivo. |
 | **Duração mínima de silêncio** | Quanto tempo uma pausa deve durar para ser marcada. |
 | **Margem de fala** | Uma pequena margem adicionada ao redor de cada segmento de fala. |
+| **Corrigir clique** | Adiciona um crossfade curto em cada ponto de corte para eliminar o clique audível que pode ocorrer ao remover silêncios abruptamente. |
 | **Pasta de exportação** | Onde o arquivo de vídeo processado é salvo após a exportação. |
 | **Redefinir** | Restaura as configurações do modo para os valores padrão. |
-| **Marcadores FCP** | Exporta os silêncios detectados como marcadores para o Final Cut Pro. |
+| **Autocut / Marcadores** | Exporte os segmentos detectados como linha do tempo autocut ou marcadores - em formato FCPXML ou XML. Compatível com Final Cut Pro, DaVinci Resolve e Adobe Premiere. |
 
 </div>
 
@@ -114,7 +115,7 @@ Detecta pausas silenciosas na fala usando Detecção de Atividade de Voz (VAD) e
 
 Transcreve seu vídeo usando IA e gera um arquivo de legendas SRT/VTT/FCPXML.
 
-![Subtitles Settings](images/screenshots/subtitles_settings.png)
+![Subtitles Settings](../../images/screenshots/subtitles_settings.png)
 
 <div align="center">
 
@@ -133,7 +134,7 @@ Transcreve seu vídeo usando IA e gera um arquivo de legendas SRT/VTT/FCPXML.
 | **Permanência** | Por quanto tempo a legenda permanece na tela após o fim da fala. Aumente para que as legendas se estendam até a próxima - com um valor suficiente, as legendas serão exibidas sem interrupções. |
 | **Tradução** | Traduz automaticamente as legendas para outro idioma via Google Tradutor (requer internet). |
 | **Formatos** | Exportar como SRT (universal), VTT (web) ou FCPXML (Final Cut Pro). |
-| **Configurações FCPXML** | Taxa de quadros e intervalo mínimo entre legendas para o Final Cut Pro. Aumente o intervalo se o FCP reportar clipes sobrepostos. |
+| **Configurações FCPXML** | Taxa de quadros, intervalo mínimo entre legendas e configurações de estilo para Final Cut Pro e DaVinci Resolve. |
 | **Pasta de exportação** | Onde o arquivo de vídeo processado é salvo após a exportação. |
 | **Redefinir** | Restaura as configurações do modo para os valores padrão. |
 
@@ -156,7 +157,7 @@ small  ~6 GB RAM   ·  Médio        ·  Boa precisão
 medium ~10 GB RAM  ·  Lento        ·  Ótima precisão
 ```
 
-**Dica:** Use **small** ou **medium** para o melhor equilíbrio. Use tiny/base quando a velocidade for mais importante. Reserve o medium para exportações profissionais finais.
+**Dica:** Use **small** ou **medium** para o melhor equilíbrio. Use tiny/base quando a velocidade for mais importante.
 
 ---
 

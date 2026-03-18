@@ -19,7 +19,7 @@
 
 ### 主界面
 
-![Main Screen](images/screenshots/MainScreen.png)
+![Main Screen](../../images/screenshots/MainScreen.png)
 
 <div align="center">
 
@@ -28,7 +28,7 @@
 | 1 | **当前模式** | 活动标签页——审查、去除静音或字幕。点击切换模式。 |
 | 2 | **设置按钮** | 打开当前模式的设置面板。 |
 | 3 | **主题按钮** | 在深色和浅色主题之间切换。 |
-| 4 | **上传区域** | 将媒体文件拖放至此，或点击打开文件选择器。支持 MP4 · MOV · MP3 · WAV。 |
+| 4 | **上传区域** | 将媒体文件拖放至此，或点击打开文件选择器。支持 MP4 · MOV · MP3 · WAV · AAC。 |
 | 5 | **当前模型** | 显示当前 AI 引擎和模型大小。点击更改引擎或模型。 |
 | 6 | **处理按钮** | 开始检测，完成后打开审阅界面。 |
 
@@ -38,7 +38,7 @@
 
 ### 时间轴 / 审阅界面
 
-![Timeline Screen](images/screenshots/TimelineScreen.png)
+![Timeline Screen](../../images/screenshots/TimelineScreen.png)
 
 <div align="center">
 
@@ -58,7 +58,7 @@
 | 12 | **时长** | 检测到片段的开始和结束时间戳。 |
 | 13 | **审查强度** | 每个片段的静音级别，从 0% 到 150%。 |
 | 14 | **导出按钮** | 应用审查或去除静音并保存处理后的文件。 |
-| 15 | **导出到 FCP** | 将所有检测到的片段作为标记导出到 Final Cut Pro XML 文件。 |
+| 15 | **导出时间线** | 将片段导出为 FCPXML 或 XML 格式，适用于 Final Cut Pro、DaVinci Resolve 和 Adobe Premiere。 |
 
 </div>
 
@@ -70,7 +70,7 @@
 
 使用 AI 检测不雅词语并自动将其静音或替换为声音。
 
-![Censorship Settings](images/screenshots/censorship_settings.png)
+![Censorship Settings](../../images/screenshots/censorship_settings.png)
 
 <div align="center">
 
@@ -83,7 +83,7 @@
 | **导出目录** | 导出后处理视频文件的保存位置。 |
 | **重置** | 将模式设置恢复为默认值。 |
 | **自定义词典** | 自定义应用内置词典。按需添加或删除词语。 |
-| **FCP 标记** | 将检测到的不雅词语作为标记导出到 Final Cut Pro。 |
+| **Automute / 标记** | 将检测到的片段导出为 automute 时间线或标记 — 支持 FCPXML 或 XML 格式。兼容 Final Cut Pro、DaVinci Resolve 和 Adobe Premiere。 |
 
 </div>
 
@@ -93,7 +93,7 @@
 
 使用语音活动检测（VAD）识别语音中的安静停顿，并将其标记为可删除的片段。
 
-![Silence Removal Settings](images/screenshots/silence_removal_settings.png)
+![Silence Removal Settings](../../images/screenshots/silence_removal_settings.png)
 
 <div align="center">
 
@@ -102,9 +102,10 @@
 | **VAD 阈值** | 静音检测的灵敏度。越高 = 越严格。越低 = 越激进。 |
 | **最短静音时长** | 停顿需要持续多久才会被标记。 |
 | **语音缓冲** | 在每个语音片段周围添加的小缓冲区。 |
+| **消除咔哒声** | 在每个剪切点添加短暂的交叉淡入淡出，以消除突然删除静音时可能出现的咔哒声。 |
 | **导出目录** | 导出后处理视频文件的保存位置。 |
 | **重置** | 将模式设置恢复为默认值。 |
-| **FCP 标记** | 将检测到的静音作为标记导出到 Final Cut Pro。 |
+| **Autocut / 标记** | 将检测到的片段导出为 autocut 时间线或标记 — 支持 FCPXML 或 XML 格式。兼容 Final Cut Pro、DaVinci Resolve 和 Adobe Premiere。 |
 
 </div>
 
@@ -114,7 +115,7 @@
 
 使用 AI 转录视频并生成 SRT/VTT/FCPXML 字幕文件。
 
-![Subtitles Settings](images/screenshots/subtitles_settings.png)
+![Subtitles Settings](../../images/screenshots/subtitles_settings.png)
 
 <div align="center">
 
@@ -133,7 +134,7 @@
 | **停留时间** | 语音结束后字幕在屏幕上停留的时长。增大此值可使字幕延伸至下一条——值足够大时字幕将无缝显示。 |
 | **翻译** | 通过 Google 翻译自动将字幕翻译成其他语言（需要网络）。 |
 | **格式** | 导出为 SRT（通用）、VTT（网页）或 FCPXML（Final Cut Pro）。 |
-| **FCPXML 设置** | Final Cut Pro 的帧率和字幕最短间隔。如果 FCP 报告片段重叠，请增大间隔。 |
+| **FCPXML 设置** | Final Cut Pro 和 DaVinci Resolve 的帧率、字幕最短间隔及样式设置。 |
 | **导出目录** | 导出后处理视频文件的保存位置。 |
 | **重置** | 将模式设置恢复为默认值。 |
 
@@ -156,7 +157,7 @@ small  ~6 GB 内存  ·  中等    ·  中等精度
 medium ~10 GB 内存 ·  较慢    ·  高精度
 ```
 
-**提示：** 使用 **small** 或 **medium** 以获得最佳平衡。当速度更重要时使用 tiny/base。medium 适合最终专业导出。
+**提示：** 使用 **small** 或 **medium** 以获得最佳平衡。当速度更重要时使用 tiny/base。
 
 ---
 

@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.1-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -36,7 +36,9 @@
 
 💬 **الترجمة** - يحوّل الفيديو إلى نص وينتج ملفات ترجمة جاهزة بصيغ SRT وVTT وFCPXML. يدعم الترجمة التلقائية عبر Google Translate.
 
-🎬 **تكامل Final Cut Pro** - تصدير مقاطع الرقابة أو الصمت مباشرةً كعلامات FCP لتسهيل التحرير.
+📹 **تصدير بدون فقدان جودة** - تظل مقاطع الفيديو بنفس الجودة بعد المعالجة.
+
+🎬 **Final Cut Pro · DaVinci Resolve · Adobe Premiere** - صدّر مشروعك مباشرةً كملفات FCPXML أو XML.
 
 ✏️ **التحرير المباشر** - راجع نتائج المعالجة وعدّلها في الوقت الفعلي - حرر المقاطع يدويًا وشاهد التغييرات فورًا.
 
@@ -48,17 +50,29 @@
 
 🌗 **الوضع الداكن والفاتح** - بدّل بينهما في أي وقت بنقرة واحدة.
 
-🌍 **متعدد اللغات** - متوفر بـ 32 لغة: 🇺🇸🇨🇳🇮🇳🇪🇸🇸🇦🇧🇩🇧🇷🇮🇩🇷🇺🇯🇵🇹🇷🇻🇳🇫🇷🇰🇷🇩🇪🇵🇰🇮🇹🇹🇭🇵🇱🇺🇦🇳🇱🇷🇴🇬🇷🇭🇺🇰🇿🇷🇸🇸🇪🇨🇿🇮🇱🇩🇰🇫🇮🇳🇴
+🌍 **متعدد اللغات** - متوفر بـ 32 لغة: 🇺🇸 English, 🇨🇳 Chinese, 🇮🇳 Hindi, 🇪🇸 Spanish, 🇸🇦 Arabic, 🇧🇩 Bengali, 🇧🇷🇵🇹 Portuguese, 🇮🇩 Indonesian, 🇷🇺 Russian, 🇯🇵 Japanese, 🇹🇷 Turkish, 🇻🇳 Vietnamese, 🇫🇷 French, 🇰🇷 Korean, 🇩🇪 German, 🇵🇰 Urdu, 🇮🇹 Italian, 🇹🇭 Thai, 🇵🇱 Polish, 🇺🇦 Ukrainian, 🇳🇱 Dutch, 🇷🇴 Romanian, 🇬🇷 Greek, 🇭🇺 Hungarian, 🇰🇿 Kazakh, 🇷🇸 Serbian, 🇸🇪 Swedish, 🇨🇿 Czech, 🇮🇱 Hebrew, 🇩🇰 Danish, 🇫🇮 Finnish, 🇳🇴 Norwegian
 
 <div align="center">
 
-![Screenshot1](images/app1.png)
+![Screenshot1](../../images/screenshots/app1.png)
 
 </div>
 
 <div align="center">
 
-![Screenshot2](images/app2.png)
+![Screenshot2](../../images/screenshots/app2.png)
+
+</div>
+
+<div align="center">
+
+![Screenshot3](../../images/screenshots/app3.png)
+
+</div>
+
+<div align="center">
+
+![Screenshot4](../../images/screenshots/app4.png)
 
 </div>
 
@@ -71,18 +85,13 @@
 
 </div>
 
-### [📥 Bowdler 1.1.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.0/Bowdler_1.1.0_aarch64.dmg) - March 14th, 2026 - 45 MB
+### [📥 Bowdler 1.1.1.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.1/Bowdler_1.1.1_aarch64.dmg) - 18 مارس 2026 - 45 MB
 
-### ما الجديد في الإصدار 1.1.0
-- الترجمة: محرر نمط FCPXML - خصّص الخط والحجم والموضع ولون/شفافية التعبئة والحدود مع معاينة مباشرة
-- إزالة الصمت: حذف صوت النقر - يزيل النقرة المسموعة عند نقاط القطع عند وجود موسيقى خلفية
-- إزالة الصمت: FCP Autocut - يصدّر FCPXML مع مقطع الفيديو مقصوصًا بالفعل
-- الرقابة: FCP Autocut - يصدّر FCPXML مع مقطع الفيديو مقصوصًا بالفعل
-- تكبير/تصغير محسّن للجدول الزمني - تكبير سلس بالضغط/التمرير مرتكزًا على موضع المؤشر
-- دعم AAC - معالجة ملفات صوت AAC بشكل أصلي
-- تحسينات في جودة وسرعة التصدير
-- تدفق تصدير أفضل - ابقَ على الشاشة الحالية بعد التصدير، النتائج مرئية فورًا، عُد بنقرة واحدة
-- تحسينات في واجهة المستخدم
+### ما الجديد في الإصدار 1.1.1
+- تصدير الجدول الزمني XML (DaVinci Resolve / Adobe Premiere)
+- XML Autocut - تصدير الجدول الزمني المقطوع
+- XML Automute - تصدير مقاطع كتم الصوت
+- XML Markers - تصدير علامات الصمت/الألفاظ النابية
 
 [عرض سجل التغييرات →](https://github.com/whyaang/Bowdler/releases)
 

@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.1-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -36,7 +36,9 @@
 
 💬 **字幕生成** - 转录视频内容，生成可直接使用的 SRT、VTT 或 FCPXML 字幕文件。支持通过 Google 翻译自动翻译。
 
-🎬 **Final Cut Pro 集成** - 将审查或静音片段直接导出为 FCP 标记，便于后期编辑。
+📹 **无损质量导出** - 处理后视频质量保持不变。
+
+🎬 **Final Cut Pro · DaVinci Resolve · Adobe Premiere** - 将项目直接导出为 FCPXML 或 XML 文件。
 
 ✏️ **实时编辑** - 实时查看并调整处理结果，手动编辑片段并即时预览更改。
 
@@ -48,17 +50,29 @@
 
 🌗 **深色与浅色主题** - 一键随时切换。
 
-🌍 **多语言支持** - 支持 32 种语言：🇺🇸🇨🇳🇮🇳🇪🇸🇸🇦🇧🇩🇧🇷🇮🇩🇷🇺🇯🇵🇹🇷🇻🇳🇫🇷🇰🇷🇩🇪🇵🇰🇮🇹🇹🇭🇵🇱🇺🇦🇳🇱🇷🇴🇬🇷🇭🇺🇰🇿🇷🇸🇸🇪🇨🇿🇮🇱🇩🇰🇫🇮🇳🇴
+🌍 **多语言支持** - 支持 32 种语言：🇺🇸 English, 🇨🇳 Chinese, 🇮🇳 Hindi, 🇪🇸 Spanish, 🇸🇦 Arabic, 🇧🇩 Bengali, 🇧🇷🇵🇹 Portuguese, 🇮🇩 Indonesian, 🇷🇺 Russian, 🇯🇵 Japanese, 🇹🇷 Turkish, 🇻🇳 Vietnamese, 🇫🇷 French, 🇰🇷 Korean, 🇩🇪 German, 🇵🇰 Urdu, 🇮🇹 Italian, 🇹🇭 Thai, 🇵🇱 Polish, 🇺🇦 Ukrainian, 🇳🇱 Dutch, 🇷🇴 Romanian, 🇬🇷 Greek, 🇭🇺 Hungarian, 🇰🇿 Kazakh, 🇷🇸 Serbian, 🇸🇪 Swedish, 🇨🇿 Czech, 🇮🇱 Hebrew, 🇩🇰 Danish, 🇫🇮 Finnish, 🇳🇴 Norwegian
 
 <div align="center">
 
-![Screenshot1](images/First%20Screen.png)
+![Screenshot1](../../images/screenshots/app1.png)
 
 </div>
 
 <div align="center">
 
-![Screenshot2](images/Timeline%20Screen.png)
+![Screenshot2](../../images/screenshots/app2.png)
+
+</div>
+
+<div align="center">
+
+![Screenshot3](../../images/screenshots/app3.png)
+
+</div>
+
+<div align="center">
+
+![Screenshot4](../../images/screenshots/app4.png)
 
 </div>
 
@@ -71,18 +85,13 @@
 
 </div>
 
-### [📥 Bowdler 1.1.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.0/Bowdler_1.1.0_aarch64.dmg) - March 14th, 2026 - 45 MB
+### [📥 Bowdler 1.1.1.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.1/Bowdler_1.1.1_aarch64.dmg) - 2026年3月18日 - 45 MB
 
-### 1.1.0 版本更新内容
-- 字幕：FCPXML 样式编辑器 — 直接在应用中自定义字体、大小、位置、填充颜色/透明度和轮廓，并提供实时预览
-- 去静音：删除点击声 — 消除有背景音乐时切割点出现的咔哒声
-- 去静音：FCP Autocut — 导出已完成剪辑的 FCPXML 文件
-- 审查：FCP Autocut — 导出已完成剪辑的 FCPXML 文件
-- 更好的时间轴缩放 — 以光标为中心的平滑捏合/滚动缩放
-- AAC 支持 — 原生处理 AAC 音频文件
-- 导出质量和速度提升
-- 更好的导出流程 — 导出后留在当前页面，结果即时可见，一键返回
-- 界面改进
+### 1.1.1 版本更新内容
+- XML 时间线导出（DaVinci Resolve / Adobe Premiere）
+- XML Autocut — 导出剪切后的时间线
+- XML Automute — 导出静音段时间线
+- XML Markers — 导出静音/不雅词汇标记
 
 [查看更新日志 →](https://github.com/whyaang/Bowdler/releases)
 
