@@ -28,7 +28,7 @@
 | 1 | **Current Mode** | The active tab - Censorship, Silence Removal, or Subtitles. Click to switch modes. |
 | 2 | **Settings Button** | Opens the settings panel for the current mode. |
 | 3 | **Theme Button** | Toggles between dark and light theme. |
-| 4 | **Upload Area / Drop Zone** | Drag & drop your media file here, or click to open a file picker. Accepts MP4 · MOV · MP3 · WAV. |
+| 4 | **Upload Area / Drop Zone** | Drag & drop your media file here, or click to open a file picker. Accepts MP4 · MOV · MP3 · WAV · AAC. |
 | 5 | **Current Model** | Shows the active AI engine and model size. Click to change engine or model. |
 | 6 | **Process Button** | Starts detection and opens the Review screen when done. |
 
@@ -58,7 +58,7 @@
 | 12 | **Duration** | Start and end timestamp of the detected segment. |
 | 13 | **Censor Intensity** | Per-segment mute level from 0% to 150%. |
 | 14 | **Export Button** | Applies censorship or silence removal and saves the processed file. |
-| 15 | **Export to FCP Button** | Exports all detected segments as markers to a Final Cut Pro XML file. |
+| 15 | **Timeline Export** | Exports all detected segments to FCPXML/XML file. |
 
 </div>
 
@@ -83,7 +83,7 @@ Detects swear words using AI and automatically mutes or replaces them with a sou
 | **Export Dir** | Where the processed video file is saved after export. |
 | **Reset** | Resets the mode settings to default in the application. |
 | **Custom Dictionaries** | Customize the app's built-in dictionaries. Remove or add words as needed. |
-| **FCP Markers** | Exports detected profanity as markers to Final Cut Pro. |
+| **Automute / Markers** | Export detected segments as an automute timeline, or markers - as FCPXML or XML. Compatible with Final Cut Pro, DaVinci Resolve, and Adobe Premiere. |
 
 </div>
 
@@ -102,9 +102,10 @@ Detects quiet pauses in speech using Voice Activity Detection (VAD) and marks th
 | **VAD Threshold** | Sensitivity of silence detection. Higher = stricter. Lower = more aggressive. |
 | **Min Silence Dur** | How long a pause must last before it's flagged. |
 | **Speech Pad** | A small buffer added around each speech segment. |
+| **Fix click sound** | Adds a short crossfade at each cut point to eliminate the audible click that can occur when silence is removed abruptly. |
 | **Export Dir** | Where the processed video file is saved after export. |
 | **Reset** | Resets the mode settings to default in the application. |
-| **FCP Markers** | Exports detected silence as markers to Final Cut Pro. |
+| **Autocut / Markers** | Export detected segments as an autocut timeline, or markers - as FCPXML or XML. Compatible with Final Cut Pro, DaVinci Resolve, and Adobe Premiere. |
 
 </div>
 
@@ -116,6 +117,8 @@ Transcribes your video using AI and generates an SRT/VTT/FCPXML subtitle file.
 
 ![Subtitles Settings](images/screenshots/subtitles_settings.png)
 
+![Subtitles Settings 2](images/screenshots/subtitles_settings2.png)
+
 <div align="center">
 
 | Setting | Description |
@@ -124,7 +127,7 @@ Transcribes your video using AI and generates an SRT/VTT/FCPXML subtitle file.
 | **Lines per Sub** | 1 or 2 lines per subtitle block. |
 | **Split at sentences** | Automatically starts a new subtitle at `.` `!` `?` - works regardless of subtitle length. Recommended ON. |
 | **Scene Detection** | Detects hard cuts in the video and forces a subtitle break at each scene change. |
-| **One Word** | Shows one word at a time. |
+| **One Word per subtitle** | Shows one word at a time. |
 | **Remove Periods** | Strips sentence-ending periods from subtitle text. |
 | **Speaker Dash** | Prepends `- ` to every subtitle line. |
 | **Text Case** | Keep original case, convert to ALL CAPS, or all lowercase. |
@@ -132,8 +135,8 @@ Transcribes your video using AI and generates an SRT/VTT/FCPXML subtitle file.
 | **Min Pause** | Minimum gap between consecutive subtitle blocks. |
 | **Linger** | How long the subtitle stays on screen after the speech ends. Increase to make subtitles overlap into the next - raise it enough and subtitles will display without gaps. |
 | **Translation** | Auto-translate subtitles to another language via Google Translate (requires internet). |
-| **Formats** | Export as SRT (universal), VTT (web), or FCPXML (Final Cut Pro). |
-| **FCPXML Settings** | Frame rate and minimum gap between captions for Final Cut Pro. Increase gap if FCP reports overlapping clips. |
+| **Formats** | Export as SRT (universal), VTT (web), or FCPXML (Final Cut Pro & Davinci Resolve). |
+| **FCPXML Settings** | Frame rate, minimum gap between captions, and style settings for Final Cut Pro & Davinci Resolve. |
 | **Export Dir** | Where the processed video file is saved after export. |
 | **Reset** | Resets the mode settings to default in the application. |
 
@@ -156,7 +159,7 @@ small  ~6 GB RAM   ·  Medium    ·  Medium accuracy
 medium ~10 GB RAM  ·  Slow      ·  Great accuracy
 ```
 
-**Tip:** Use **small** or **medium** for the best balance. Use tiny/base when speed matters more. Reserve large for final professional exports.
+**Tip:** Use **small** or **medium** for the best balance. Use tiny/base when speed matters more.
 
 ---
 

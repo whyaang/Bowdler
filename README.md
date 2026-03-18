@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.1-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -36,19 +36,21 @@
 
 💬 **Subtitles** - Transcribes your video and produces SRT, VTT, or FCPXML subtitle files. Supports auto-translation via Google Translate.
 
-🎬 **Final Cut Pro Integration** - Export censorship or silence segments directly as FCP markers for easy editing.
+📹 **Export without quality loss** - Your videos remain in the same quality after processing.
 
-✏️ **Live Edit** - Review and adjust processing results in real time - edit segments manually and see the changes instantly.
+🎬 **Final Cut Pro · DaVinci Resolve · Adobe Premiere** - Export your video directly as FCPXML or XML files.
 
-📦 **Batch Processing** - Process multiple videos at once and let Bowdler do the heavy lifting.
+✏️ **Live Edit** - Review and adjust processing results in real time.
+
+📦 **Batch Processing** - Process multiple videos at once.
 
 📕 **Custom Dictionaries** - Built-in profanity lists with the ability to manage them freely.
 
-🔒 **Works Offline** - Your data never leaves your Mac. All processing runs locally using Apple Silicon-optimized models.
-
 🌗 **Dark & Light Themes** - Switch anytime with a single button.
 
-🌍 **Multilingual** - Available in 32 languages: 🇺🇸🇨🇳🇮🇳🇪🇸🇸🇦🇧🇩🇧🇷🇮🇩🇷🇺🇯🇵🇹🇷🇻🇳🇫🇷🇰🇷🇩🇪🇵🇰🇮🇹🇹🇭🇵🇱🇺🇦🇳🇱🇷🇴🇬🇷🇭🇺🇰🇿🇷🇸🇸🇪🇨🇿🇮🇱🇩🇰🇫🇮🇳🇴
+🔒 **Works Offline** - Your data never leaves your Mac. All processing runs locally using Apple Silicon-optimized models.
+
+🌍 **Multilingual** - Supports 32 languages: 🇺🇸 English, 🇨🇳 Chinese, 🇮🇳 Hindi, 🇪🇸 Spanish, 🇸🇦 Arabic, 🇧🇩 Bengali, 🇧🇷🇵🇹 Portuguese, 🇮🇩 Indonesian, 🇷🇺 Russian, 🇯🇵 Japanese, 🇹🇷 Turkish, 🇻🇳 Vietnamese, 🇫🇷 French, 🇰🇷 Korean, 🇩🇪 German, 🇵🇰 Urdu, 🇮🇹 Italian, 🇹🇭 Thai, 🇵🇱 Polish, 🇺🇦 Ukrainian, 🇳🇱 Dutch, 🇷🇴 Romanian, 🇬🇷 Greek, 🇭🇺 Hungarian, 🇰🇿 Kazakh, 🇷🇸 Serbian, 🇸🇪 Swedish, 🇨🇿 Czech, 🇮🇱 Hebrew, 🇩🇰 Danish, 🇫🇮 Finnish, 🇳🇴 Norwegian
 
 <div align="center">
 
@@ -62,6 +64,18 @@
 
 </div>
 
+<div align="center">
+
+![Screenshot3](images/screenshots/app3.png)
+
+</div>
+
+<div align="center">
+
+![Screenshot4](images/screenshots/app4.png)
+
+</div>
+
 ---
 
 <div align="center">
@@ -71,18 +85,13 @@
 
 </div>
 
-### [📥 Bowdler 1.1.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.0/Bowdler_1.1.0_aarch64.dmg) - March 14th, 2026 - 45 MB
+### [📥 Bowdler 1.1.1.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.1/Bowdler_1.1.1_aarch64.dmg) - March 18th, 2026 - 45 MB
 
-### What's new in 1.1.0
-- Subtitles: FCPXML Style editor - customize font, size, position, face color/opacity, and outline with a live preview
-- Silence Removal: Delete Click Sound - removes the click at cut points when background music is present
-- Silence Removal: FCP Autocut - exports an FCPXML where the video is already cut and trimmed
-- Censorship: FCP Autocut - exports an FCPXML where the video is already cut and trimmed
-- Better timeline zoom - smooth pinch/scroll zoom centered on cursor position
-- AAC Support - process AAC audio files natively
-- Export quality & speed improvements - faster processing with better output quality
-- Better Export flow - stay on screen after export, see results inline, jump back with one click
-- UI Improvements
+### What's new in 1.1.1
+- XML Timeline Export (DaVinci Resolve / Adobe Premiere)
+- XML Autocut - export cut timeline
+- XML Automute - export muted segments
+- XML Markers - export silence/profanity markers
 
 [View Changelogs →](https://github.com/whyaang/Bowdler/releases)
 
