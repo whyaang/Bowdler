@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.1-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -36,7 +36,9 @@
 
 💬 **Subtítulos** - Transcribe tu video y genera archivos de subtítulos SRT, VTT o FCPXML listos para usar. Compatible con traducción automática a través de Google Translate.
 
-🎬 **Integración con Final Cut Pro** - Exporta segmentos de censura o silencio directamente como marcadores FCP para una edición sencilla.
+📹 **Exportación sin pérdida de calidad** - Tus vídeos mantienen la misma calidad tras el procesamiento.
+
+🎬 **Final Cut Pro · DaVinci Resolve · Adobe Premiere** - Exporta tu proyecto directamente como archivos FCPXML o XML.
 
 ✏️ **Edición en vivo** - Revisa y ajusta los resultados del procesamiento en tiempo real - edita segmentos manualmente y ve los cambios al instante.
 
@@ -48,17 +50,29 @@
 
 🌗 **Temas oscuro y claro** - Cambia en cualquier momento con un solo botón.
 
-🌍 **Multilingüe** - Disponible en 32 idiomas: 🇺🇸🇨🇳🇮🇳🇪🇸🇸🇦🇧🇩🇧🇷🇮🇩🇷🇺🇯🇵🇹🇷🇻🇳🇫🇷🇰🇷🇩🇪🇵🇰🇮🇹🇹🇭🇵🇱🇺🇦🇳🇱🇷🇴🇬🇷🇭🇺🇰🇿🇷🇸🇸🇪🇨🇿🇮🇱🇩🇰🇫🇮🇳🇴
+🌍 **Multilingüe** - Disponible en 32 idiomas: 🇺🇸 English, 🇨🇳 Chinese, 🇮🇳 Hindi, 🇪🇸 Spanish, 🇸🇦 Arabic, 🇧🇩 Bengali, 🇧🇷🇵🇹 Portuguese, 🇮🇩 Indonesian, 🇷🇺 Russian, 🇯🇵 Japanese, 🇹🇷 Turkish, 🇻🇳 Vietnamese, 🇫🇷 French, 🇰🇷 Korean, 🇩🇪 German, 🇵🇰 Urdu, 🇮🇹 Italian, 🇹🇭 Thai, 🇵🇱 Polish, 🇺🇦 Ukrainian, 🇳🇱 Dutch, 🇷🇴 Romanian, 🇬🇷 Greek, 🇭🇺 Hungarian, 🇰🇿 Kazakh, 🇷🇸 Serbian, 🇸🇪 Swedish, 🇨🇿 Czech, 🇮🇱 Hebrew, 🇩🇰 Danish, 🇫🇮 Finnish, 🇳🇴 Norwegian
 
 <div align="center">
 
-![Screenshot1](images/First%20Screen.png)
+![Screenshot1](../../images/screenshots/app1.png)
 
 </div>
 
 <div align="center">
 
-![Screenshot2](images/Timeline%20Screen.png)
+![Screenshot2](../../images/screenshots/app2.png)
+
+</div>
+
+<div align="center">
+
+![Screenshot3](../../images/screenshots/app3.png)
+
+</div>
+
+<div align="center">
+
+![Screenshot4](../../images/screenshots/app4.png)
 
 </div>
 
@@ -71,18 +85,13 @@
 
 </div>
 
-### [📥 Bowdler 1.1.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.0/Bowdler_1.1.0_aarch64.dmg) - March 14th, 2026 - 45 MB
+### [📥 Bowdler 1.1.1.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.1/Bowdler_1.1.1_aarch64.dmg) - 18 de marzo de 2026 - 45 MB
 
-### Novedades de la versión 1.1.0
-- Subtítulos: editor de estilo FCPXML — personaliza fuente, tamaño, posición, color/opacidad del relleno y contorno con vista previa en vivo
-- Silencio: Eliminar Clic — elimina el clic audible en los puntos de corte cuando hay música de fondo
-- Silencio: FCP Autocut — exporta un FCPXML con el video ya cortado y recortado
-- Censura: FCP Autocut — exporta un FCPXML con el video ya cortado y recortado
-- Mejor zoom del timeline — zoom suave por pellizco/desplazamiento centrado en la posición del cursor
-- Soporte AAC — procesa archivos de audio AAC de forma nativa
-- Mejoras en calidad y velocidad de exportación
-- Mejor flujo de exportación — permanece en la pantalla actual después de exportar, resultados visibles al instante, volver con un clic
-- Mejoras de interfaz
+### Novedades de la versión 1.1.1
+- Exportación de línea de tiempo XML (DaVinci Resolve / Adobe Premiere)
+- XML Autocut - exportar línea de tiempo de cortes
+- XML Automute - exportar segmentos silenciados
+- XML Markers - exportar marcadores de silencio/obscenidades
 
 [Ver registro de cambios →](https://github.com/whyaang/Bowdler/releases)
 

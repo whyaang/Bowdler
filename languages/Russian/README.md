@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.1-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -36,7 +36,9 @@
 
 💬 **Субтитры** - Транскрибирует видео и создаёт готовые файлы субтитров в форматах SRT, VTT или FCPXML. Поддерживает автоматический перевод через Google Translate.
 
-🎬 **Интеграция с Final Cut Pro** - Экспорт сегментов цензуры или тишины напрямую как маркеров FCP для удобного монтажа.
+📹 **Экспорт без потери качества** - Видео сохраняется в исходном качестве после обработки.
+
+🎬 **Final Cut Pro · DaVinci Resolve · Adobe Premiere** - Экспортируйте проект напрямую в формате FCPXML или XML.
 
 ✏️ **Живое редактирование** - Просматривайте и корректируйте результаты обработки в реальном времени - редактируйте сегменты вручную и сразу следите за изменениями.
 
@@ -48,17 +50,29 @@
 
 🌗 **Тёмная и светлая темы** - Переключайтесь в любое время одной кнопкой.
 
-🌍 **Мультиязычность** - Доступно на 32 языках: 🇺🇸🇨🇳🇮🇳🇪🇸🇸🇦🇧🇩🇧🇷🇮🇩🇷🇺🇯🇵🇹🇷🇻🇳🇫🇷🇰🇷🇩🇪🇵🇰🇮🇹🇹🇭🇵🇱🇺🇦🇳🇱🇷🇴🇬🇷🇭🇺🇰🇿🇷🇸🇸🇪🇨🇿🇮🇱🇩🇰🇫🇮🇳🇴
+🌍 **Мультиязычность** - Поддерживает 32 языка: 🇺🇸 English, 🇨🇳 Chinese, 🇮🇳 Hindi, 🇪🇸 Spanish, 🇸🇦 Arabic, 🇧🇩 Bengali, 🇧🇷🇵🇹 Portuguese, 🇮🇩 Indonesian, 🇷🇺 Russian, 🇯🇵 Japanese, 🇹🇷 Turkish, 🇻🇳 Vietnamese, 🇫🇷 French, 🇰🇷 Korean, 🇩🇪 German, 🇵🇰 Urdu, 🇮🇹 Italian, 🇹🇭 Thai, 🇵🇱 Polish, 🇺🇦 Ukrainian, 🇳🇱 Dutch, 🇷🇴 Romanian, 🇬🇷 Greek, 🇭🇺 Hungarian, 🇰🇿 Kazakh, 🇷🇸 Serbian, 🇸🇪 Swedish, 🇨🇿 Czech, 🇮🇱 Hebrew, 🇩🇰 Danish, 🇫🇮 Finnish, 🇳🇴 Norwegian
 
 <div align="center">
 
-![Screenshot1](images/First%20Screen.png)
+![Screenshot1](../../images/screenshots/app1.png)
 
 </div>
 
 <div align="center">
 
-![Screenshot2](images/Timeline%20Screen.png)
+![Screenshot2](../../images/screenshots/app2.png)
+
+</div>
+
+<div align="center">
+
+![Screenshot3](../../images/screenshots/app3.png)
+
+</div>
+
+<div align="center">
+
+![Screenshot4](../../images/screenshots/app4.png)
 
 </div>
 
@@ -71,18 +85,13 @@
 
 </div>
 
-### [📥 Bowdler 1.1.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.0/Bowdler_1.1.0_aarch64.dmg) - March 14th, 2026 - 45 MB
+### [📥 Bowdler 1.1.1.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.1/Bowdler_1.1.1_aarch64.dmg) - 18 марта 2026 г. - 45 МБ
 
-### Что нового в версии 1.1.0
-- Субтитры: редактор стиля FCPXML - настройка шрифта, размера, позиции, цвета/прозрачности заливки и обводки с живым превью
-- Удаление тишины: удаление щелчка - убирает щелчок на точках склейки при наличии фоновой музыки
-- Удаление тишины: FCP Autocut - экспортирует FCPXML с уже нарезанным и обрезанным видео
-- Цензура: FCP Autocut - экспортирует FCPXML с уже нарезанным и обрезанным видео
-- Улучшенный зум таймлайна - плавный зум щипком/скроллом к позиции курсора
-- Поддержка AAC - обработка AAC аудиофайлов
-- Улучшения качества и скорости экспорта
-- Улучшенный процесс экспорта - оставайтесь на экране после экспорта, результаты видны сразу, возврат одним нажатием
-- Улучшения интерфейса
+### Что нового в версии 1.1.1
+- Экспорт XML (DaVinci Resolve / Adobe Premiere)
+- XML Autocut - экспорт таймлайна с вырезанными сегментами
+- XML Automute - экспорт таймлайна с заглушёнными сегментами
+- XML Markers - экспорт маркеров тишины/нецензурной лексики
 
 [Смотреть список изменений →](https://github.com/whyaang/Bowdler/releases)
 
