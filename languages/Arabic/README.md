@@ -85,13 +85,12 @@
 
 </div>
 
-### [📥 Bowdler 1.1.1.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.1/Bowdler_1.1.1_aarch64.dmg) - 18 مارس 2026 - 45 MB
+### [📥 Bowdler 2.0.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.0/Bowdler_2.0.0_aarch64.dmg) - April 8th, 2026 - 45 MB
 
-### ما الجديد في الإصدار 1.1.1
-- تصدير الجدول الزمني XML (DaVinci Resolve / Adobe Premiere)
-- XML Autocut - تصدير الجدول الزمني المقطوع
-- XML Automute - تصدير مقاطع كتم الصوت
-- XML Markers - تصدير علامات الصمت/الألفاظ النابية
+### What's new in 2.0.0
+- **New mode: Transcript Edit** - Edit video by editing text. Cut words, mute profanity, remove fillers, bad takes and silence gaps. Multi-speaker detection and per-speaker subtitles.
+- **Profanity**: Smooth Mute - fade in/out around censored words.
+- **Other**: Major UI/UX improvements, session save/load (`.bwdr`), and bug fixes.
 
 [عرض سجل التغييرات →](https://github.com/whyaang/Bowdler/releases)
 
