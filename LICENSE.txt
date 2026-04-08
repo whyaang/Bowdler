@@ -1,4 +1,4 @@
-Copyright (c) 2025 Vladislav Korobkin
+Copyright (c) 2025-2026 Vladislav Korobkin
 All rights reserved.
 
 This software is proprietary. You may not copy, modify, distribute,

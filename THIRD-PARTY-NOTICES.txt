@@ -187,3 +187,60 @@ copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+────────────────────────────────────────────────────────────
+stable-ts
+License: MIT
+Copyright (c) 2022 jianfch
+https://github.com/jianfch/stable-ts
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+────────────────────────────────────────────────────────────
+sherpa-onnx
+License: Apache 2.0
+Copyright (c) 2023 k2-fsa / Next-gen Kaldi Contributors
+https://github.com/k2-fsa/sherpa-onnx
+
+Licensed under the Apache License, Version 2.0. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+────────────────────────────────────────────────────────────
+sentence-transformers
+License: Apache 2.0
+Copyright (c) 2019 UKP Lab, Nils Reimers
+https://github.com/UKPLab/sentence-transformers
+
+Licensed under the Apache License, Version 2.0. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+This software uses the model paraphrase-multilingual-MiniLM-L12-v2,
+distributed under the Apache License 2.0.
+https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+
+────────────────────────────────────────────────────────────
+Pyannote Speaker Segmentation Model
+License: CC BY 4.0
+Copyright (c) CNRS, Hervé Bredin
+https://huggingface.co/pyannote/segmentation-3.0
+
+Distributed in ONNX format via sherpa-onnx. Model weights are licensed under
+the Creative Commons Attribution 4.0 International License.
+https://creativecommons.org/licenses/by/4.0/
+
+────────────────────────────────────────────────────────────
+3D-Speaker CAM++ Speaker Embedding Model
+License: Apache 2.0
+Copyright (c) 2023 Alibaba Group / 3D-Speaker Contributors
+https://github.com/alibaba-damo-academy/3D-Speaker
+
+Distributed in ONNX format via sherpa-onnx.
+Licensed under the Apache License, Version 2.0. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
