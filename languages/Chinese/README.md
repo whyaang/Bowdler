@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-1.1.1-blue)
+![Version](https://img.shields.io/badge/version-2.0.0-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
 
@@ -85,13 +85,12 @@
 
 </div>
 
-### [📥 Bowdler 1.1.1.dmg](https://github.com/whyaang/Bowdler/releases/download/v1.1.1/Bowdler_1.1.1_aarch64.dmg) - 2026年3月18日 - 45 MB
+### [📥 Bowdler 2.0.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.0/Bowdler_2.0.0_aarch64.dmg) - April 8th, 2026 - 45 MB
 
-### 1.1.1 版本更新内容
-- XML 时间线导出（DaVinci Resolve / Adobe Premiere）
-- XML Autocut — 导出剪切后的时间线
-- XML Automute — 导出静音段时间线
-- XML Markers — 导出静音/不雅词汇标记
+### What's new in 2.0.0
+- **New mode: Transcript Edit** - Edit video by editing text. Cut words, mute profanity, remove fillers, bad takes and silence gaps. Multi-speaker detection and per-speaker subtitles.
+- **Profanity**: Smooth Mute - fade in/out around censored words.
+- **Other**: Major UI/UX improvements, session save/load (`.bwdr`), and bug fixes.
 
 [查看更新日志 →](https://github.com/whyaang/Bowdler/releases)
 
