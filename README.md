@@ -1,15 +1,14 @@
 <div align="center">
 
 ![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-2.0.0-blue)
+![Version](https://img.shields.io/badge/version-2.0.1-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
-
 </div>
 
 <div align="center">
   
-[![Buy on Gumroad](https://img.shields.io/badge/Buy_on-Gumroad-pink?style=for-the-badge)](https://whyaang.gumroad.com/l/bowdler)
+[![Get Bowdler](https://img.shields.io/badge/Get_Bowdler-$39_Lifetime-pink?style=for-the-badge)](https://whyaang.gumroad.com/l/bowdler)
 
 </div>
 
@@ -66,13 +65,13 @@
 
 <div align="center">
 
-![Screenshot3](images/screenshots/app3.png)
+![Screenshot4](images/screenshots/app4.png)
 
 </div>
 
 <div align="center">
 
-![Screenshot4](images/screenshots/app4.png)
+![Screenshot3](images/screenshots/app3.png)
 
 </div>
 
@@ -85,12 +84,15 @@
 
 </div>
 
-### [📥 Bowdler 2.0.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.0/Bowdler_2.0.0_aarch64.dmg) - April 8th, 2026 - 45 MB
+### [📥 Bowdler 2.0.1.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.1/Bowdler_2.0.1_aarch64.dmg) - April 9th, 2026 - 45 MB
 
-### What's new in 2.0.0
-- **New mode: Transcript Edit** - Edit video by editing text. Cut words, mute profanity, remove fillers, bad takes and silence gaps. Multi-speaker detection and per-speaker subtitles.
-- **Profanity**: Smooth Mute - fade in/out around censored words.
-- **Other**: Major UI/UX improvements, session save/load (`.bwdr`), and bug fixes.
+### What's new in 2.0.1
+- Fixed lag during playback in Transcript Edit with long videos
+- Fixed Subtitles overlay in Transcript Edit
+- Removed segment counts in Silence Removal
+- XML Automute now always exports standard hard mute instead of Smooth Mute (Davinci, Premiere)
+- False profanity detections reduced
+- Small UI fixes
 
 [View Changelogs →](https://github.com/whyaang/Bowdler/releases)
 
