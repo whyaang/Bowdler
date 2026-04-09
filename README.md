@@ -29,7 +29,7 @@
 
 </div>
 
-✏️ **Transcript Edit** - Review and edit your transcript word by word. Cut, mute, or restore any part of the video directly from the script. Remove silence, detect filler words, identify bad takes, and generate subtitles - all in one place.
+✏️ **Transcript Edit** - Edit video by editing text. Cut words, mute profanity, generate subtitles, remove fillers, bad takes and silence gaps. Multi-speaker detection and per-speaker subtitles.
 
 ✂️ **Silence Removal** - Detects silence using Voice Activity Detection and removes it with a simple click.
 
