@@ -29,15 +29,17 @@
 
 </div>
 
-🔇 **Censorship** - Detects profanity using local AI and automatically mutes or replaces it with a sound.
+✏️ **Transcript Edit** - Review and edit your transcript word by word. Cut, mute, or restore any part of the video directly from the script. Remove silence, detect filler words, identify bad takes, and generate subtitles - all in one place.
 
 ✂️ **Silence Removal** - Detects silence using Voice Activity Detection and removes it with a simple click.
 
 💬 **Subtitles** - Transcribes your video and produces SRT, VTT, or FCPXML subtitle files. Supports auto-translation via Google Translate.
 
-📹 **Export without quality loss** - Your videos remain in the same quality after processing.
+🔇 **Censorship** - Detects profanity using local AI and automatically mutes or replaces it with a sound.
 
 🎬 **Final Cut Pro · DaVinci Resolve · Adobe Premiere** - Export your video directly as FCPXML or XML files.
+
+📹 **Export without quality loss** - Your videos remain in the same quality after processing.
 
 ✏️ **Live Edit** - Review and adjust processing results in real time.
 
