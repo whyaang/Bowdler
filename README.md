@@ -1,79 +1,159 @@
 <div align="center">
 
-![Banner](images/banner.png)
-![Version](https://img.shields.io/badge/version-2.0.1-blue)
-![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
-![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-required-orange)
-</div>
-
-<div align="center">
-  
-[![Get Bowdler](https://img.shields.io/badge/Get_Bowdler-$39_Lifetime-pink?style=for-the-badge)](https://whyaang.gumroad.com/l/bowdler)
+<a href="https://whyaang.gumroad.com/l/bowdler">
+  <img src="images/hero.png"/>
+</a>
 
 </div>
 
+---
+
+Creativity dies in the timeline. Every hour lost to repetitive edits, every task that pulls you away from the actual content - that's energy that should go into your next video.
+
+Bowdler automates and simplifies the whole editing routine using simple tools and local AI: silence, transcript, subtitles, censorship, all processed on your Mac in minutes. 32 languages supported across all modes. You keep the craft.
+
+---
+
 <div align="center">
-  <h3>
-    <a>README</a> · <a href="FAQ.md">FAQ</a> · <a href="DOCS.md">DOCS</a>
-  </h3>
-  <p>
-    <a>🇺🇸 English</a> · <a href="languages/Chinese/README.md">🇨🇳 中文</a> · <a href="languages/Spanish/README.md">🇪🇸 Español</a> · <a href="languages/Arabic/README.md">🇸🇦 العربية</a> · <a href="languages/Portuguese/README.md">🇧🇷 Português</a> · <a href="languages/Russian/README.md">🇷🇺 Русский</a>
-  </p>
+
+![What Bowdler does](images/whatbowdlerdoes.png)
+
+</div>
+
+<table><tr>
+<td width="40%" valign="middle">
+
+### Transcript Edit
+Edit your video like a document. Select & cut sentences/words, remove filler words, bad takes, and silence, mute profanity, make per-speaker subtitle tracks. Everything in one place: transcript editing, silence removal, profanity removal, subtitles.
+
+</td>
+<td width="60%">
+
+<img src="images/gifs/Transcript.gif" width="100%"/>
+
+</td>
+</tr></table>
+
+<table><tr>
+<td width="60%">
+
+<img src="images/gifs/Silence.gif" width="100%"/>
+
+</td>
+<td width="40%" valign="middle">
+
+### Silence Removal
+Review the detected segments on the timeline, toggle what to keep or remove. Fine-tune detection sensitivity, minimum silence length, and padding to get exactly the result you want.
+
+</td>
+</tr></table>
+
+<table><tr>
+<td width="40%" valign="middle">
+
+### Subtitles
+Transcribes your video and generates subtitles you can edit directly in the app. Adjust timing, fix words, customize. Export as SRT, VTT, or FCPXML. Auto-translation into 32 languages via Google Translate.
+
+</td>
+<td width="60%">
+
+<img src="images/gifs/Subtitles.gif" width="100%"/>
+
+</td>
+</tr></table>
+
+<table><tr>
+<td width="60%">
+
+<img src="images/gifs/Censorship.gif" width="100%"/>
+
+</td>
+<td width="40%" valign="middle">
+
+### Profanity Censorship
+Mute it or replace detected profanity with silence or a beep. Review every detection before exporting. Built-in profanity lists for 32 languages, plus custom dictionaries where you can add custom words or delete existing ones.
+
+</td>
+</tr></table>
+
+---
+
+<div align="center">
+
+![Works with your tools](images/workswithyourtools.png)
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### Native video export
+
+Export directly as MP4 or MOV in the original codec: no re-encoding, no quality loss, up to 4K. Your Video and audio comes out exactly as it went in, minus everything you removed.
+
+</td>
+<td width="50%">
+
+### Timeline export
+
+Export your edit as FCPXML or XML and open it in Final Cut Pro, DaVinci Resolve, or Adobe Premiere. Your cuts, mutes, and edits come through as a native timeline and ready for color grading, mixing, or anything else.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+![FCP Export](images/fcp_output.png)
+
 </div>
 
 ---
 
 <div align="center">
 
-![Features](images/features.png)
-
-</div>
-
-✏️ **Transcript Edit** - Edit video by editing text. Cut words, mute profanity, generate subtitles, remove fillers, bad takes and silence gaps. Multi-speaker detection and per-speaker subtitles.
-
-✂️ **Silence Removal** - Detects silence using Voice Activity Detection and removes it with a simple click.
-
-💬 **Subtitles** - Transcribes your video and produces SRT, VTT, or FCPXML subtitle files. Supports auto-translation via Google Translate.
-
-🔇 **Censorship** - Detects profanity using local AI and automatically mutes or replaces it with a sound.
-
-🎬 **Final Cut Pro · DaVinci Resolve · Adobe Premiere** - Export your video directly as FCPXML or XML files.
-
-📹 **Export without quality loss** - Your videos remain in the same quality after processing.
-
-✏️ **Live Edit** - Review and adjust processing results in real time.
-
-📦 **Batch Processing** - Process multiple videos at once.
-
-📕 **Custom Dictionaries** - Built-in profanity lists with the ability to manage them freely.
-
-🌗 **Dark & Light Themes** - Switch anytime with a single button.
-
-🔒 **Works Offline** - Your data never leaves your Mac. All processing runs locally using Apple Silicon-optimized models.
-
-🌍 **Multilingual** - Supports 32 languages: 🇺🇸 English, 🇨🇳 Chinese, 🇮🇳 Hindi, 🇪🇸 Spanish, 🇸🇦 Arabic, 🇧🇩 Bengali, 🇧🇷🇵🇹 Portuguese, 🇮🇩 Indonesian, 🇷🇺 Russian, 🇯🇵 Japanese, 🇹🇷 Turkish, 🇻🇳 Vietnamese, 🇫🇷 French, 🇰🇷 Korean, 🇩🇪 German, 🇵🇰 Urdu, 🇮🇹 Italian, 🇹🇭 Thai, 🇵🇱 Polish, 🇺🇦 Ukrainian, 🇳🇱 Dutch, 🇷🇴 Romanian, 🇬🇷 Greek, 🇭🇺 Hungarian, 🇰🇿 Kazakh, 🇷🇸 Serbian, 🇸🇪 Swedish, 🇨🇿 Czech, 🇮🇱 Hebrew, 🇩🇰 Danish, 🇫🇮 Finnish, 🇳🇴 Norwegian
-
-<div align="center">
-
-![Screenshot1](images/screenshots/app1.png)
+![Privacy](images/privacy.png)
 
 </div>
 
 <div align="center">
 
-![Screenshot2](images/screenshots/app2.png)
+![Privacy](images/privacy.svg)
 
 </div>
 
+Bowdler runs locally on Apple Silicon, so no internet connection required, no cloud processing, no accounts. Every AI model, every transcription, every detection runs only on your Mac, and Bowdler collects no usage data whatsoever: not anonymized stats, not crash reports, nothing.
+
+---
+
 <div align="center">
 
-![Screenshot4](images/screenshots/app4.png)
+![How it compares](images/howitcompares.png)
 
 </div>
 
+Cloud tools make you wait, limit your media hours, and charge monthly. Local tools like Recut and Timebolt are fast but do one or two things. Bowdler does all of it: silence removal, transcript editing, subtitles, censorship, filler words, bad takes - locally, for **$49 once**. The transcription engine is Whisper - the same model that powers most cloud tools, optimized for Apple Silicon. The difference is that it runs on your machine, not theirs.
+
+<div align="left">
+
+![Table](images/compare.png)
+
+*Timebolt's silence detection is local. Filler word removal & Subtitle generator (Umcheck) sends audio to AWS and is billed separately on top of any plan, including lifetime.*
+
+*Descript supports 26 languages - Latin alphabet only: Chinese, Japanese, Russian and Arabic are not supported.*
+
+*Prices as of April 2026. Bowdler lifetime price includes all future updates. Current price may increase as new features ship.*
+
+</div>
+
+---
+
 <div align="center">
 
-![Screenshot3](images/screenshots/app3.png)
+<a href="https://whyaang.gumroad.com/l/bowdler">
+  <img src="images/cta.png"/>
+</a>
 
 </div>
 
@@ -82,36 +162,63 @@
 <div align="center">
 
 ![Download](images/download.png)
-![Support](images/support.png)
 
 </div>
 
-### [📥 Bowdler 2.0.1.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.1/Bowdler_2.0.1_aarch64.dmg) - April 9th, 2026 - 45 MB
+### [📥 Bowdler 2.0.2.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.2/Bowdler_2.0.2_aarch64.dmg) - April 15th, 2026 · 32 MB
 
-### What's new in 2.0.1
-- Fixed lag during playback in Transcript Edit with long videos
-- Fixed Subtitles overlay in Transcript Edit
-- Removed segment counts in Silence Removal
-- XML Automute now always exports standard hard mute instead of Smooth Mute (Davinci, Premiere)
-- False profanity detections reduced
-- Small UI fixes
+Download, open DMG, drag to Applications, enter your license key. That's it. AI model downloads automatically on first launch.
 
-[View Changelogs →](https://github.com/whyaang/Bowdler/releases)
+> **Requires macOS 13.3 or later with Apple Silicon (M1 or later).** Intel Macs are not supported.
 
-> **Requires macOS 13.3 or later with Apple Silicon** (M1 or later). Intel Macs are not supported (yet).
+<details>
+<summary><b>What's new in 2.0.2</b></summary>
+
+<br>
+
+- Improved app loading performance
+- Fixed an issue with downloading the Bad Takes detection model
+- Corrected subtitle positioning in 4K preview
+- Minor UI improvements
+
+[View all changelogs →](https://github.com/whyaang/Bowdler/releases)
+
+</details>
 
 ---
 
 <div align="center">
 
-![Help](images/help.png)
+![Support](images/support.png)
 
 </div>
 
-- 📖 **[FAQ](FAQ.md)** & **[DOCS](DOCS.md)** - frequently asked questions, all settings explained, AI models info
-- 💬 **Help menu** in the macOS menu bar - send a bug report, ask a question, or request a feature directly from the app
-- ✉️ **[whyaang@gmail.com](mailto:whyaang@gmail.com)** - questions, feedback, or just to say hi
-> typically respond within 24-48 hours.
+**[FAQ](FAQ.md)** & **[DOCS](DOCS.md)** - all settings explained, AI models info, frequently asked questions.
+
+**Help menu** in the macOS menu bar - send a bug report, ask a question, or request a feature directly from the app.
+
+**[whyaang@gmail.com](mailto:whyaang@gmail.com)** - typically respond within 24–48 hours.
+
+---
+
+<div align="center">
+
+![Affiliate](images/affiliate.png)
+
+</div>
+
+If you make content about video editing, macOS apps, productivity, or Final Cut Pro and you have an audience that **trusts** your recommendations - let's work together. **You talk about it - I make sure it's worth talking about.**
+
+**Your audience gets 10% off. You get 40% of every sale. Forever.**
+
+No minimum follower count. Any language. What matters is that your audience is relevant: creators, editors, podcasters, educators, anyone who spends time cutting video on a Mac. A YouTube channel, a focused newsletter, a podcast, a Discord community, TikTok - all of these work.
+
+**When you apply, include:**
+- Where your content lives (YouTube, newsletter, podcast, social, etc.) & links
+- A short description of your audience and what content you make
+- Why you think Bowdler would be useful to them
+
+Apply at [whyaang.gumroad.com/affiliates](https://whyaang.gumroad.com/affiliates)
 
 ---
 
@@ -121,6 +228,6 @@
 
 </div>
 
-I got tired of spending hours in Final Cut Pro doing the same repetitive edits. So I built Bowdler for myself. Every feature, every bug (sorry), and every decision comes from a single person - me. It worked - my workflow got faster and much simpler, and maybe it will do the same for you.
+I got tired of spending hours in Final Cut Pro doing the same repetitive edits. So I built Bowdler for myself. Every feature, every bug (sorry), and every decision comes from one person - me. And it worked. My workflow got faster and much simpler, and maybe it will do the same for you.
 
-If Bowdler sounds like something that could save you time or simplify your workflow, I'd be incredibly grateful if you considered buying a license on [Gumroad](https://whyaang.gumroad.com/l/bowdler) - it keeps Bowdler alive and funds future cool stuff (maybe even Bowdler for Windows) ❤️
+I'm incredibly grateful to every user who's purchased a [Gumroad license](https://whyaang.gumroad.com/l/bowdler), who's simply supported my idea, and especially to everyone who's suggested new features or reported bugs. Reading and responding to all emails every day shows me that my efforts are paying off, and this keeps me going. Thank you.
