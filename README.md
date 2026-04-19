@@ -90,7 +90,7 @@ Mute it or replace detected profanity with silence or a beep. Review every detec
 
 ### Native video export
 
-Export directly as MP4 or MOV in the original codec: no re-encoding, no quality loss, up to 4K. Your Video and audio comes out exactly as it went in, minus everything you removed.
+Export directly as MP4 or MOV - up to 4K. Audio operations (mute, bleep) preserve your original codec with no re-encoding. Video cuts are re-encoded to H.264 or HEVC to maintain frame-accurate precision. Your audio comes out exactly as it went in, minus everything you removed.
 
 </td>
 <td width="50%">
