@@ -165,7 +165,7 @@ Cloud tools make you wait, limit your media hours, and charge monthly. Local too
 
 </div>
 
-### [📥 Bowdler 2.0.2.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.2/Bowdler_2.0.2_aarch64.dmg) - April 15th, 2026 · 32 MB
+### [📥 Bowdler 2.0.3.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.3/Bowdler_2.0.3_aarch64.dmg) - April 20th, 2026 · 32 MB
 
 Download, open DMG, drag to Applications, enter your license key. That's it. AI model downloads automatically on first launch.
 
@@ -176,10 +176,27 @@ Download, open DMG, drag to Applications, enter your license key. That's it. AI 
 
 <br>
 
-- Improved app loading performance
-- Fixed an issue with downloading the Bad Takes detection model
-- Corrected subtitle positioning in 4K preview
-- Minor UI improvements
+### Video & Export
+- Fixed playback and processing for 10-bit codecs, now exported to ProRes by default (thanks to fcp.cafe)
+- Fixed incorrect video resolution detection
+- Fixed issue with Video Quality detection
+- Fixed export issues with special characters
+
+### Video Processing
+- Improved accuracy of word start/end detection
+- Fixed an issue where silence removal could cut into the end of the previous word
+- Fixed a bug where processing could get stuck during Language Detection
+- Fixed model loading issue for Bad Takes
+
+### Interface & UX
+- Fixed black screen issue when timeline was loaded in Transcript Edit
+- Updated playback UI in Transcript Edit + added 2x speed
+- Improved UI during downloads
+- Fixed issue preventing License Key input
+
+### Known issues
+- Audio lag when using Bluetooth devices
+- Subtitles may end early when words are cut off mid-sentence (Transcript Edit)
 
 [View all changelogs →](https://github.com/whyaang/Bowdler/releases)
 
