@@ -172,7 +172,7 @@ Download, open DMG, drag to Applications, enter your license key. That's it. AI 
 > **Requires macOS 13.3 or later with Apple Silicon (M1 or later).** Intel Macs are not supported.
 
 <details>
-<summary><b>What's new in 2.0.2</b></summary>
+<summary><b>What's new in 2.0.3</b></summary>
 
 <br>
 
