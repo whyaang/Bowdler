@@ -165,38 +165,33 @@ Cloud tools make you wait, limit your media hours, and charge monthly. Local too
 
 </div>
 
-### [📥 Bowdler 2.0.3.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.3/Bowdler_2.0.3_aarch64.dmg) - April 20th, 2026 · 32 MB
+### [📥 Bowdler 2.0.4.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.4/Bowdler_2.0.4_aarch64.dmg) - April 29th, 2026 · 32 MB
 
 Download, open DMG, drag to Applications, enter your license key. That's it. AI model downloads automatically on first launch.
 
 > **Requires macOS 13.3 or later with Apple Silicon (M1 or later).** Intel Macs are not supported.
 
 <details>
-<summary><b>What's new in 2.0.3</b></summary>
+<summary><b>What's new in 2.0.4</b></summary>
 
 <br>
 
-### Video & Export
-- Fixed playback and processing for 10-bit codecs, now exported to ProRes by default (thanks to fcp.cafe)
-- Fixed incorrect video resolution detection
-- Fixed issue with Video Quality detection
-- Fixed export issues with special characters
+### Player & Playback
+- Replaced WKWebView player with AVPlayer, resolving audio lag with Bluetooth devices
+- Fixed stuttering and lag when loading video on the main screen
 
-### Video Processing
-- Improved accuracy of word start/end detection
-- Fixed an issue where silence removal could cut into the end of the previous word
-- Fixed a bug where processing could get stuck during Language Detection
-- Fixed model loading issue for Bad Takes
+### Video & Export
+- Fixed 10-bit video export to ProRes
+
+### Formats
+- Added MXF, M4V, M4A, and AIFF to supported formats
+
+### Transcript Edit
+- Added sentence reordering feature
+- Fixed subtitles ending earlier than expected (FCPXML, SRT, VTT export)
 
 ### Interface & UX
-- Fixed black screen issue when timeline was loaded in Transcript Edit
-- Updated playback UI in Transcript Edit + added 2x speed
-- Improved UI during downloads
-- Fixed issue preventing License Key input
-
-### Known issues
-- Audio lag when using Bluetooth devices
-- Subtitles may end early when words are cut off mid-sentence (Transcript Edit)
+- Minor UI improvements
 
 [View all changelogs →](https://github.com/whyaang/Bowdler/releases)
 
