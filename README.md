@@ -165,7 +165,7 @@ Cloud tools make you wait, limit your media hours, and charge monthly. Local too
 
 </div>
 
-### [📥 Bowdler 2.0.4.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.4/Bowdler_2.0.4_aarch64.dmg) - April 29th, 2026 · 32 MB
+### [📥 Bowdler 2.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.5/Bowdler_2.0.5_aarch64.dmg) - April 30th, 2026 · 32 MB
 
 Download, open DMG, drag to Applications, enter your license key. That's it. AI model downloads automatically on first launch.
 
