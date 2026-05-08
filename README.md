@@ -165,33 +165,40 @@ Cloud tools make you wait, limit your media hours, and charge monthly. Local too
 
 </div>
 
-### [📥 Bowdler 2.0.5.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.5/Bowdler_2.0.5_aarch64.dmg) - April 30th, 2026 · 32 MB
+### [📥 Bowdler 2.0.6.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.6/Bowdler_2.0.6_aarch64.dmg) - May 8th, 2026 · 32 MB
 
 Download, open DMG, drag to Applications, enter your license key. That's it. AI model downloads automatically on first launch.
 
 > **Requires macOS 13.3 or later with Apple Silicon (M1 or later).** Intel Macs are not supported.
 
 <details>
-<summary><b>What's new in 2.0.4</b></summary>
+<summary><b>What's new in 2.0.6</b></summary>
 
 <br>
 
-### Player & Playback
-- Replaced WKWebView player with AVPlayer, resolving audio lag with Bluetooth devices
-- Fixed stuttering and lag when loading video on the main screen
+## Security
+- Fixed path traversal vulnerabilities in export
+- Fixed ZipSlip vulnerability when downloading models
 
-### Video & Export
-- Fixed 10-bit video export to ProRes
+## Player & Playback
+- Fixed crash on window deallocation during playback initialization
+- Fixed frozen frame overlay fallback
+- Fixed media observer cleanup
 
-### Formats
-- Added MXF, M4V, M4A, and AIFF to supported formats
+## Video & Export
+- Fixed 10-bit video passthrough when depth metadata is missing
+- Fixed silence not being padded when replacement audio is shorter than video
+- Fixed audio-only detection issue
+- Fixed ProRes 4444 incorrectly exporting as ProRes 422
 
-### Transcript Edit
-- Added sentence reordering feature
-- Fixed subtitles ending earlier than expected (FCPXML, SRT, VTT export)
+## Transcript & Subtitles
+- Fixed double quotes in XML exports
+- Fixed subtitle cue remapping using unsafe number parsing
 
-### Interface & UX
-- Minor UI improvements
+## License System
+- Fixed license data storage
+- Fixed offline grace period logic
+- Added validation of license API responses
 
 [View all changelogs →](https://github.com/whyaang/Bowdler/releases)
 
