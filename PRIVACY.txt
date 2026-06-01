@@ -1,0 +1,205 @@
+PRIVACY NOTICE
+
+Last updated: 21 May 2026
+
+This Privacy Notice sets out how Vladislav Korobkin ("we", "us",
+"Licensor") collects, uses, and protects personal data when you use the
+Bowdler software ("Software").
+
+1. WHO WE ARE
+
+   Data controller: Vladislav Korobkin
+   Based in: Thessaloniki, Greece
+   Contact: whyaang@gmail.com
+
+   We maintain a Record of Processing Activities under UK GDPR Article 30.
+
+   We are not required to appoint a Data Protection Officer under UK GDPR
+   Article 37.
+
+2. WHAT DATA WE COLLECT AND WHY
+
+   We collect different categories of personal data depending on your use
+   of the Software. Each activity below lists the data collected and the
+   legal basis under the UK GDPR.
+
+   Purchase (via Gumroad)
+      Data collected: name, email, country, purchase ID, price, license
+      key, refund status.
+      Legal basis: contract (Art. 6(1)(b) UK GDPR) — fulfilment of the
+      purchase and provision of the license.
+      Source: provided by you during Gumroad checkout and received from
+      Gumroad, Inc.
+
+   License activation
+      Data collected: license key, email, purchase ID.
+      Legal basis: contract (Art. 6(1)(b) UK GDPR) — verification of the
+      license and enabling of Software features.
+      Source: provided by you when entering the license key in the Software.
+
+   Local storage
+      The Software does not use cookies or web storage. All local data is
+      stored in the macOS Keychain (encrypted by the operating system) and in
+      the Application Support directory (~/Library/Application Support/
+      com.whyang.bowdler/).
+
+   Free trial — token request
+      Data collected: hashed machine ID, app version.
+      Legal basis: legitimate interest (Art. 6(1)(f) UK GDPR) — generation
+      of a time-limited trial token and binding it to your device to
+      prevent unauthorised re-activation.
+      Source: generated automatically by the Software and sent to our trial
+      server. The original machine ID is hashed and cannot be reversed.
+
+   Free trial — usage monitoring
+      Data collected: hashed machine ID, exports used (count), exhaustion
+      flag.
+      Legal basis: legitimate interest (Art. 6(1)(f) UK GDPR) — enforcement
+      of the trial limit and detection of abuse.
+      Source: generated automatically by the Software and sent periodically
+      to our trial server.
+
+   Trial converted (post-purchase)
+      Data collected: hashed machine ID.
+      Legal basis: legitimate interest (Art. 6(1)(f) UK GDPR) — marking
+      the trial as permanently converted so it cannot be reused.
+      Source: generated automatically by the Software and sent to our trial
+      server.
+
+   Update checks (GitHub Releases)
+      Data collected: no personally identifiable data.
+      Legal basis: legitimate interest (Art. 6(1)(f) UK GDPR) — delivering
+      security patches and bug fixes.
+      The Tauri Updater plugin issues an anonymous GET request to a static
+      JSON file on GitHub Releases. No personally identifiable information is
+      transmitted. GitHub may process standard connection
+      metadata (such as IP address and User-Agent) on its own servers in
+      accordance with its privacy policy; we do not receive or log that data.
+
+3. WHERE DATA COMES FROM
+
+   - Purchase data: provided by you during Gumroad checkout and received
+     from Gumroad, Inc. as the payment processor.
+   - Activation data: provided by you when entering the license key.
+   - Trial / update data: generated automatically by the Software.
+
+4. HOW WE STORE AND PROTECT DATA
+
+   - License key: stored locally in your macOS Keychain.
+   - Email and purchase ID: stored locally in an HMAC-signed JSON file
+     inside ~/Library/Application Support/com.whyang.bowdler/ for offline
+     license verification.
+   - Trial data: stored locally in the same directory and in Keychain;
+     a copy is stored on our server (api.bowdler.app) for trial abuse
+     prevention.
+   - Payment card data is not stored by us; payments are processed by
+     Gumroad, Stripe, or PayPal.
+   - All network requests use HTTPS / TLS 1.2 or higher.
+
+   Security Measures
+   -----------------
+   - Encryption at rest: trial usage data is encrypted with AES-256-GCM
+     using a unique per-device key. Offline license files are protected
+     by HMAC-SHA256 signatures.
+   - Encryption in transit: all network traffic uses TLS 1.2 or higher.
+   - Access controls: license metadata and trial tokens are stored in the
+     macOS Keychain, which is encrypted by the operating system.
+   - Integrity protection: offline license verification uses HMAC-SHA256
+     to detect tampering. Update packages are cryptographically signed
+     with Ed25519 (minisign) before installation.
+   - Communication security: trial-server connections use TLS certificate
+     pinning (SPKI SHA-256) to prevent man-in-the-middle attacks. Every
+     request is signed with HMAC-SHA256 and includes a unique nonce to
+     prevent replay attacks.
+   - Telemetry: none. The Software does not transmit usage analytics,
+     crash reports, or tracking data to any third party.
+
+5. RETENTION PERIODS
+
+   - Purchase / license records: retained for the duration of the licence
+     term and for tax / accounting purposes
+     (7 years after the end of the financial year in which the transaction
+     occurred).
+   - Trial server logs: retained for 90 days, then deleted.
+   - Local trial data: retained until the Software is uninstalled or until
+     manual deletion.
+   - Update check logs: not logged.
+
+6. WHO WE SHARE DATA WITH
+
+   - Gumroad, Inc. acts as a payment processor. Gumroad collects the buyer
+     name, email, country and purchase details and discloses them to us
+     for the purpose of completing the transaction. Gumroad does not share your payment card
+     details with us; such data are processed by Stripe or PayPal. Under the UK
+     GDPR, Gumroad is a data processor for purchase-related data and we
+     are the data controller. We have entered into a Data Processing
+     Agreement with Gumroad. Gumroad's privacy policy is available at
+     https://gumroad.com/privacy.
+   - GitHub, Inc. receives connection metadata (including IP address) when
+     the Software checks for updates on GitHub Releases. We do not control
+     or receive those logs. We rely on GitHub's Data Processing Agreement
+     and Standard Contractual Clauses (UK Addendum) for any restricted
+     transfers.
+   - We do not sell or rent personal data.
+
+7. YOUR RIGHTS
+
+   Data subjects in the EU/EEA or UK are entitled to:
+   - Access personal data.
+   - Rectify inaccurate data.
+   - Erase personal data ("right to be forgotten"), where retention is
+     required by law.
+   - Restrict processing under the conditions set out in Article 18 UK GDPR.
+   - Data portability: receive personal data in a structured, commonly
+     used, machine-readable format (JSON or CSV).
+   - Object to processing based on legitimate interest.
+
+   To exercise these rights, contact whyaang@gmail.com. A response
+   shall be provided within one month of receipt.
+
+8. RIGHT TO COMPLAIN
+
+   Where processing is considered unlawful, a complaint may be lodged with
+   the competent supervisory authority (e.g., the ICO).
+
+9. DATA BREACH NOTIFICATION
+
+   In the event of a personal data breach likely to result in high risk
+   to your rights and freedoms, the data subject shall be notified
+   without undue delay and, where feasible, no later than 72 hours after
+   detection of the breach.
+
+10. AUTOMATED DECISION-MAKING
+
+    We do not engage in automated decision-making or profiling that produces
+    legal or similarly significant effects on the data subject.
+
+11. INTERNATIONAL TRANSFERS
+
+   Our trial server (api.bowdler.app) is hosted in Finland. Trial data
+   relating to data subjects in the EU/EEA is stored within the European
+   Economic Area.
+
+   During update checks, connection metadata, including IP address, may
+   be transferred to GitHub, Inc. in the United States. GitHub participates in the EU-US Data Privacy Framework,
+   which the European Commission has recognised as providing adequate
+   safeguards for personal data transfers under GDPR Article 46. As a
+   supplementary measure, GitHub's Data Processing Agreement incorporates
+   the UK Addendum to the Standard Contractual Clauses (SCCs). Further
+   information is available at https://github.com/privacy.
+
+12. CHILDREN'S PRIVACY
+
+    The Software is not intended for users under 16 years of age. We do
+    not knowingly collect personal data from children.
+
+13. CHANGES TO THIS NOTICE
+
+    This Privacy Notice is subject to amendment. The current version is
+    available in the legal directory of the Software and at
+    https://bowdler.app/privacy.
+
+14. CONTACT
+
+    For data subject requests and enquiries regarding data protection:
+    Email: whyaang@gmail.com
