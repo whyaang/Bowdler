@@ -165,40 +165,36 @@ Cloud tools make you wait, limit your media hours, and charge monthly. Local too
 
 </div>
 
-### [📥 Bowdler 2.0.6.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.0.6/Bowdler_2.0.6_aarch64.dmg) - May 8th, 2026 · 32 MB
+### [📥 Bowdler 2.5.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.5.0/Bowdler_2.5.0_aarch64.dmg) - May 31th, 2026 · 32 MB
 
 Download, open DMG, drag to Applications, enter your license key. That's it. AI model downloads automatically on first launch.
 
 > **Requires macOS 13.3 or later with Apple Silicon (M1 or later).** Intel Macs are not supported.
 
 <details>
-<summary><b>What's new in 2.0.6</b></summary>
+<summary><b>What's new in 2.5.0</b></summary>
 
 <br>
 
-## Security
-- Fixed path traversal vulnerabilities in export
-- Fixed ZipSlip vulnerability when downloading models
+## Multicam Mode *(Beta)*
+* Added Multicam Mode - a new mode supporting transcript editing, track synchronization, and camera switching with FCPXML export
+* This is a beta release; UI, features, and overall behavior are not yet finished and polished. Send your feedback and ideas to whyaang@gmail.com
 
-## Player & Playback
-- Fixed crash on window deallocation during playback initialization
-- Fixed frozen frame overlay fallback
-- Fixed media observer cleanup
+## Free Trial
+* Added free trial with 8 exports across all modes
+* Whisper models are limited during the trial period
+* Trial requires an active internet connection
 
-## Video & Export
-- Fixed 10-bit video passthrough when depth metadata is missing
-- Fixed silence not being padded when replacement audio is shorter than video
-- Fixed audio-only detection issue
-- Fixed ProRes 4444 incorrectly exporting as ProRes 422
+## Transcript Edit
+* Fixed player jumping unexpectedly during playback
 
-## Transcript & Subtitles
-- Fixed double quotes in XML exports
-- Fixed subtitle cue remapping using unsafe number parsing
+## Silence Removal
+* Fixed audio track playing twice when video started with a silent segment
+* Improved audio and video synchronization
 
 ## License System
-- Fixed license data storage
-- Fixed offline grace period logic
-- Added validation of license API responses
+* Fixed license being re-activated unintentionally
+* Fixed app failing to launch without internet connection due to license verification
 
 [View all changelogs →](https://github.com/whyaang/Bowdler/releases)
 
