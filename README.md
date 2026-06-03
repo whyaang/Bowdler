@@ -165,36 +165,31 @@ Cloud tools make you wait, limit your media hours, and charge monthly. Local too
 
 </div>
 
-### [📥 Bowdler 2.5.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.5.0/Bowdler_2.5.0_aarch64.dmg) - May 31th, 2026 · 32 MB
+### [📥 Bowdler 2.5.1.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.5.1/Bowdler_2.5.1_aarch64.dmg) - June 4th, 2026 · 32 MB
 
 Download, open DMG, drag to Applications, enter your license key. That's it. AI model downloads automatically on first launch.
 
 > **Requires macOS 13.3 or later with Apple Silicon (M1 or later).** Intel Macs are not supported.
 
 <details>
-<summary><b>What's new in 2.5.0</b></summary>
+<summary><b>What's new in 2.5.1</b></summary>
 
 <br>
 
-## Multicam Mode *(Beta)*
-* Added Multicam Mode - a new mode supporting transcript editing, track synchronization, and camera switching with FCPXML export
-* This is a beta release; UI, features, and overall behavior are not yet finished and polished. Send your feedback and ideas to whyaang@gmail.com
+### Free Trial
+* Fixed activation issue blocking new users from starting a trial (server side, + updated client side)
 
-## Free Trial
-* Added free trial with 8 exports across all modes
-* Whisper models are limited during the trial period
-* Trial requires an active internet connection
+### Frontend Restructuring
+* Restructured internal UI layout, no functional changes intended, but minor visual inconsistencies may appear; report anything unexpected to whyaang@gmail.com
 
-## Transcript Edit
-* Fixed player jumping unexpectedly during playback
+### Video Export
+* Fixed corrupted or incorrect output on certain project types
 
-## Silence Removal
-* Fixed audio track playing twice when video started with a silent segment
-* Improved audio and video synchronization
+### Transcript Editor
+* Fixed front-end rendering inconsistencies in the editor UI
 
-## License System
-* Fixed license being re-activated unintentionally
-* Fixed app failing to launch without internet connection due to license verification
+### Custom Resolution Export
+* Fixed export failing for non-standard resolutions
 
 [View all changelogs →](https://github.com/whyaang/Bowdler/releases)
 
