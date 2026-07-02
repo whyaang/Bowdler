@@ -13,7 +13,7 @@ You may obtain a copy of the Apache License at
 http://www.apache.org/licenses/LICENSE-2.0
 
 ────────────────────────────────────────────────────────────
-MLX (v0.31.2)
+MLX (v0.30.6)
 License: MIT
 Copyright (c) 2023 Apple Inc.
 https://github.com/ml-explore/mlx
@@ -51,7 +51,7 @@ https://alphacephei.com/vosk
 Licensed under the Apache License, Version 2.0.
 
 ────────────────────────────────────────────────────────────
-ONNX Runtime (v1.26.0)
+ONNX Runtime (v1.24.2)
 License: MIT
 Copyright (c) Microsoft Corporation
 https://github.com/microsoft/onnxruntime
@@ -81,7 +81,7 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
 ────────────────────────────────────────────────────────────
-NumPy (v2.4.4)
+NumPy (v2.4.2)
 License: BSD 3-Clause
 Copyright (c) 2005-2025 NumPy Developers
 https://numpy.org
@@ -118,24 +118,7 @@ SoundFile dynamically loads libsndfile at runtime through CFFI/ctypes
 (see libsndfile notice below).
 
 ────────────────────────────────────────────────────────────
-imageio-ffmpeg (v0.6.0)
-License: BSD 2-Clause
-Copyright (c) 2019-2025 imageio contributors
-https://github.com/imageio/imageio-ffmpeg
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-1. Redistributions of source code must retain the above copyright notice,
-   this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
-
-This software includes FFmpeg binaries. See the FFmpeg notice below for
-license terms.
-
-────────────────────────────────────────────────────────────
-Hugging Face Hub (v1.14.0)
+Hugging Face Hub (v1.5.0)
 License: Apache 2.0
 Copyright (c) Hugging Face Inc.
 https://github.com/huggingface/huggingface_hub
@@ -161,22 +144,7 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
 ────────────────────────────────────────────────────────────
-stable-ts (v2.19.1)
-License: MIT
-Copyright (c) 2022 jian
-https://github.com/jianfch/stable-ts
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-────────────────────────────────────────────────────────────
-sherpa-onnx (v1.12.33)
+sherpa-onnx (v1.13.2)
 License: Apache 2.0
 Copyright (c) 2023 Xiaomi Corporation
 https://github.com/k2-fsa/sherpa-onnx
@@ -184,7 +152,7 @@ https://github.com/k2-fsa/sherpa-onnx
 Licensed under the Apache License, Version 2.0.
 
 ────────────────────────────────────────────────────────────
-sentence-transformers (v5.5.0)
+sentence-transformers (v5.5.1)
 License: Apache 2.0
 Copyright (c) 2019 UKP Lab, Nils Reimers
 https://github.com/UKPLab/sentence-transformers
@@ -194,6 +162,21 @@ Licensed under the Apache License, Version 2.0.
 Includes the model paraphrase-multilingual-MiniLM-L12-v2,
 distributed under the Apache License 2.0.
 https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+
+────────────────────────────────────────────────────────────
+Parakeet TDT (parakeet.cpp)
+License: MIT
+Copyright (c) 2024 mudler
+https://github.com/mudler/parakeet.cpp
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 ────────────────────────────────────────────────────────────
 SciPy (v1.17.1)
@@ -338,14 +321,10 @@ License: GPL-2.0+ (GNU General Public License v2.0 or later)
 Copyright (c) FFmpeg Developers
 https://ffmpeg.org
 
-Includes FFmpeg v7.1 binaries (macOS aarch64 static
-build, distributed via imageio-ffmpeg). Bundled build includes GPL
-components (libx264, libx265); licensed under GPL-2.0+, not LGPL.
-
-Invoked as a separate command-line process. Under FSF guidance,
-arm's-length communication between separate programs does not create a
-derivative work. GPL terms of FFmpeg do not extend to the Bowdler
-application.
+FFmpeg is invoked as a separate command-line process. Under FSF
+guidance, arm's-length communication between separate programs does
+not create a derivative work. GPL terms of FFmpeg do not extend to
+the Bowdler application.
 
 Source code: https://ffmpeg.org/releases/ffmpeg-7.1.tar.xz
 

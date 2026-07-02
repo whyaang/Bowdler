@@ -1,6 +1,6 @@
 PRIVACY NOTICE
 
-Last updated: 21 May 2026
+Last updated: 27 June 2026
 
 This Privacy Notice sets out how Vladislav Korobkin ("we", "us",
 "Licensor") collects, uses, and protects personal data when you use the
@@ -10,7 +10,7 @@ Bowdler software ("Software").
 
    Data controller: Vladislav Korobkin
    Based in: Thessaloniki, Greece
-   Contact: whyaang@gmail.com
+   Contact: contact@bowdler.app
 
    We maintain a Record of Processing Activities under UK GDPR Article 30.
 
@@ -36,6 +36,10 @@ Bowdler software ("Software").
       Legal basis: contract (Art. 6(1)(b) UK GDPR) — verification of the
       license and enabling of Software features.
       Source: provided by you when entering the license key in the Software.
+      Method: the Software sends the license key to our server
+      (api.bowdler.app), which verifies your device identity and forwards
+      the request to Gumroad, Inc. on your behalf. We do not store the
+      license key after the verification is complete.
 
    Local storage
       The Software does not use cookies or web storage. All local data is
@@ -44,15 +48,17 @@ Bowdler software ("Software").
       com.whyang.bowdler/).
 
    Free trial — token request
-      Data collected: hashed machine ID, app version.
+      Data collected: SEP public key, app version.
       Legal basis: legitimate interest (Art. 6(1)(f) UK GDPR) — generation
       of a time-limited trial token and binding it to your device to
       prevent unauthorised re-activation.
       Source: generated automatically by the Software and sent to our trial
-      server. The original machine ID is hashed and cannot be reversed.
+      server. The SEP public key is a cryptographic identifier derived from
+      the Apple Secure Enclave on your device; the private key never leaves
+      the hardware.
 
    Free trial — usage monitoring
-      Data collected: hashed machine ID, exports used (count), exhaustion
+      Data collected: SEP public key, exports used (count), exhaustion
       flag.
       Legal basis: legitimate interest (Art. 6(1)(f) UK GDPR) — enforcement
       of the trial limit and detection of abuse.
@@ -60,7 +66,7 @@ Bowdler software ("Software").
       to our trial server.
 
    Trial converted (post-purchase)
-      Data collected: hashed machine ID.
+      Data collected: SEP public key.
       Legal basis: legitimate interest (Art. 6(1)(f) UK GDPR) — marking
       the trial as permanently converted so it cannot be reused.
       Source: generated automatically by the Software and sent to our trial
@@ -86,9 +92,10 @@ Bowdler software ("Software").
 4. HOW WE STORE AND PROTECT DATA
 
    - License key: stored locally in your macOS Keychain.
-   - Email and purchase ID: stored locally in an HMAC-signed JSON file
+   - Email and purchase ID: stored locally in a signed JSON file
      inside ~/Library/Application Support/com.whyang.bowdler/ for offline
-     license verification.
+     license verification. The file is protected by an Ed25519 signature
+     issued by our server.
    - Trial data: stored locally in the same directory and in Keychain;
      a copy is stored on our server (api.bowdler.app) for trial abuse
      prevention.
@@ -99,18 +106,20 @@ Bowdler software ("Software").
    Security Measures
    -----------------
    - Encryption at rest: trial usage data is encrypted with AES-256-GCM
-     using a unique per-device key. Offline license files are protected
-     by HMAC-SHA256 signatures.
+     using a unique per-device key. Offline license metadata is stored as
+     an Ed25519-signed JWT.
    - Encryption in transit: all network traffic uses TLS 1.2 or higher.
    - Access controls: license metadata and trial tokens are stored in the
      macOS Keychain, which is encrypted by the operating system.
-   - Integrity protection: offline license verification uses HMAC-SHA256
-     to detect tampering. Update packages are cryptographically signed
-     with Ed25519 (minisign) before installation.
+   - Device identity: trial and license requests are authenticated with
+     ECDSA P-256 signatures generated inside the Apple Secure Enclave.
+     The private key never leaves the device and cannot be extracted.
+   - Server-side identity: our server stores only the SEP public key.
+     It cannot reconstruct any hardware identifier from this key.
    - Communication security: trial-server connections use TLS certificate
      pinning (SPKI SHA-256) to prevent man-in-the-middle attacks. Every
-     request is signed with HMAC-SHA256 and includes a unique nonce to
-     prevent replay attacks.
+     request includes a unique nonce and an ECDSA signature to prevent
+     replay attacks.
    - Telemetry: none. The Software does not transmit usage analytics,
      crash reports, or tracking data to any third party.
 
@@ -127,6 +136,10 @@ Bowdler software ("Software").
 
 6. WHO WE SHARE DATA WITH
 
+   - Our server (api.bowdler.app) receives the license key during
+     activation in order to verify your device identity and forward the
+     request to Gumroad, Inc. We do not retain the license key after the
+     verification is complete.
    - Gumroad, Inc. acts as a payment processor. Gumroad collects the buyer
      name, email, country and purchase details and discloses them to us
      for the purpose of completing the transaction. Gumroad does not share your payment card
@@ -154,7 +167,7 @@ Bowdler software ("Software").
      used, machine-readable format (JSON or CSV).
    - Object to processing based on legitimate interest.
 
-   To exercise these rights, contact whyaang@gmail.com. A response
+   To exercise these rights, contact contact@bowdler.app. A response
    shall be provided within one month of receipt.
 
 8. RIGHT TO COMPLAIN
@@ -176,9 +189,10 @@ Bowdler software ("Software").
 
 11. INTERNATIONAL TRANSFERS
 
-   Our trial server (api.bowdler.app) is hosted in Finland. Trial data
-   relating to data subjects in the EU/EEA is stored within the European
-   Economic Area.
+   Our server (api.bowdler.app) is hosted in Finland. Trial and license
+   verification data relating to data subjects in the EU/EEA is processed
+   and stored within the European Economic Area before any onward
+   transfer to Gumroad, Inc.
 
    During update checks, connection metadata, including IP address, may
    be transferred to GitHub, Inc. in the United States. GitHub participates in the EU-US Data Privacy Framework,
@@ -202,4 +216,4 @@ Bowdler software ("Software").
 14. CONTACT
 
     For data subject requests and enquiries regarding data protection:
-    Email: whyaang@gmail.com
+    Email: contact@bowdler.app
