@@ -165,31 +165,65 @@ Cloud tools make you wait, limit your media hours, and charge monthly. Local too
 
 </div>
 
-### [📥 Bowdler 2.5.1.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.5.1/Bowdler_2.5.1_aarch64.dmg) - June 4th, 2026 · 32 MB
+### [📥 Bowdler 2.6.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.6.0/Bowdler_2.6.0_aarch64.dmg) - July 2th, 2026 · 397 MB
 
-Download, open DMG, drag to Applications, enter your license key. That's it. AI model downloads automatically on first launch.
+Download, open DMG, drag to Applications, enter your license key. That's it.
 
 > **Requires macOS 13.3 or later with Apple Silicon (M1 or later).** Intel Macs are not supported.
 
 <details>
-<summary><b>What's new in 2.5.1</b></summary>
+<summary><b>What's new in 2.6.0</b></summary>
 
 <br>
 
-### Free Trial
-* Fixed activation issue blocking new users from starting a trial (server side, + updated client side)
+## App Bundle
+- The app now ships with cleaned and signed Python libraries built in.
+- .dmg and .tar.gz have been compressed to minimal sizes — 396MB / 354MB.
+- The app itself is now 956MB.
 
-### Frontend Restructuring
-* Restructured internal UI layout, no functional changes intended, but minor visual inconsistencies may appear; report anything unexpected to whyaang@gmail.com
+## Free Trial
+- Free Trial now uses SEP + the Bowdler API for activation. 8 trial exports are available per device. Devices without SEP are not officially supported.
 
-### Video Export
-* Fixed corrupted or incorrect output on certain project types
+## License
+- License validation now happens through the Bowdler API.
+- Each license is now bound to a device via SEP. Devices can be unlinked from a license once every two months at bowdler.app/key (launching soon).
+- All existing devices will be automatically re-linked.
 
-### Transcript Editor
-* Fixed front-end rendering inconsistencies in the editor UI
+## Censorship
+- Video export now replaces only the audio track, preserving all original video properties and metadata tags.
 
-### Custom Resolution Export
-* Fixed export failing for non-standard resolutions
+## Batch Processing
+- Silence Removal, Subtitle Generator, and Profanity Censorship now have a new batch handler that lets you choose the output file format (previously video export only).
+
+## New Parakeet models
+- 6 Parakeet models are now available for processing.
+- Parakeet models are not available in the Free Trial.
+
+## FCPXML Export
+- Video formats with embedded timecode are now supported.
+- Fixed video resolution detection.
+
+## Under the Hood
+- Whisper processing is now faster (partially rewritten in Rust).
+- Parakeet processing is now implemented in Rust.
+- Improved app protection.
+- Sandbox architecture implemented for Python.
+- Improved translation quality.
+- Frontend fully optimized.
+- A new API using Go!
+- Mental breakdown. Just kidding :)
+
+## In Closed Testing
+- Animated Subtitles.
+- Transcript Edit tools in Multicam.
+- MCP Server (early stage).
+
+## Planned
+- Multicam workflows.
+- MLX Whisper 4-bit / 8-bit models.
+- Small workflow mode (e.g. Face Recognition, Audio Enhancement).
+- Ollama integration for LLM processing & automation.
+- FCPXML Import (actually, not sure about that).
 
 [View all changelogs →](https://github.com/whyaang/Bowdler/releases)
 
