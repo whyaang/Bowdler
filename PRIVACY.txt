@@ -36,10 +36,6 @@ Bowdler software ("Software").
       Legal basis: contract (Art. 6(1)(b) UK GDPR) — verification of the
       license and enabling of Software features.
       Source: provided by you when entering the license key in the Software.
-      Method: the Software sends the license key to our server
-      (api.bowdler.app), which verifies your device identity and forwards
-      the request to Gumroad, Inc. on your behalf. We do not store the
-      license key after the verification is complete.
 
    Local storage
       The Software does not use cookies or web storage. All local data is
@@ -48,7 +44,7 @@ Bowdler software ("Software").
       com.whyang.bowdler/).
 
    Free trial — token request
-      Data collected: SEP public key, app version.
+      Data collected: SEP public key (a pseudonymised device identifier), app version.
       Legal basis: legitimate interest (Art. 6(1)(f) UK GDPR) — generation
       of a time-limited trial token and binding it to your device to
       prevent unauthorised re-activation.
@@ -58,7 +54,7 @@ Bowdler software ("Software").
       the hardware.
 
    Free trial — usage monitoring
-      Data collected: SEP public key, exports used (count), exhaustion
+      Data collected: SEP public key (a pseudonymised device identifier), exports used (count), exhaustion
       flag.
       Legal basis: legitimate interest (Art. 6(1)(f) UK GDPR) — enforcement
       of the trial limit and detection of abuse.
@@ -66,11 +62,20 @@ Bowdler software ("Software").
       to our trial server.
 
    Trial converted (post-purchase)
-      Data collected: SEP public key.
+      Data collected: SEP public key (a pseudonymised device identifier).
       Legal basis: legitimate interest (Art. 6(1)(f) UK GDPR) — marking
       the trial as permanently converted so it cannot be reused.
       Source: generated automatically by the Software and sent to our trial
       server.
+
+   Subtitle translation (optional)
+      Data collected: subtitle text (SRT/VTT format).
+      Legal basis: legitimate interest (Art. 6(1)(f) UK GDPR) — providing
+      subtitle translation functionality. Users may disable this feature
+      in the Software settings; when disabled, no subtitle data is
+      transmitted.
+      Source: provided by the user when enabling translation for a
+      subtitle track. Subtitle text is sent to Google Translate API.
 
    Update checks (GitHub Releases)
       Data collected: no personally identifiable data.
@@ -91,16 +96,18 @@ Bowdler software ("Software").
 
 4. HOW WE STORE AND PROTECT DATA
 
-   - License key: stored locally in your macOS Keychain.
-   - Email and purchase ID: stored locally in a signed JSON file
+   - License key: stored locally in your macOS Keychain. During
+     activation, the license key is sent to our server (api.bowdler.app)
+     for verification and forwarded to Gumroad, Inc. We do not retain the
+     license key after verification is complete.
+   - Email and purchase ID: stored locally in an HMAC-signed JSON file
      inside ~/Library/Application Support/com.whyang.bowdler/ for offline
-     license verification. The file is protected by an Ed25519 signature
-     issued by our server.
+     license verification.
    - Trial data: stored locally in the same directory and in Keychain;
      a copy is stored on our server (api.bowdler.app) for trial abuse
      prevention.
    - Payment card data is not stored by us; payments are processed by
-     Gumroad, Stripe, or PayPal.
+     Gumroad (which may use Stripe or PayPal as sub-processors).
    - All network requests use HTTPS / TLS 1.2 or higher.
 
    Security Measures
@@ -125,7 +132,7 @@ Bowdler software ("Software").
 
 5. RETENTION PERIODS
 
-   - Purchase / license records: retained for the duration of the licence
+   - Purchase / license records: retained for the duration of the license
      term and for tax / accounting purposes
      (7 years after the end of the financial year in which the transaction
      occurred).
@@ -140,10 +147,13 @@ Bowdler software ("Software").
      activation in order to verify your device identity and forward the
      request to Gumroad, Inc. We do not retain the license key after the
      verification is complete.
+   - Google LLC receives subtitle text when the user enables subtitle
+     translation in the Software. Subtitle text is processed in accordance
+     with Google's privacy policy.
    - Gumroad, Inc. acts as a payment processor. Gumroad collects the buyer
      name, email, country and purchase details and discloses them to us
      for the purpose of completing the transaction. Gumroad does not share your payment card
-     details with us; such data are processed by Stripe or PayPal. Under the UK
+     details with us; such data are processed by Gumroad (which may use Stripe or PayPal as sub-processors). Under the UK
      GDPR, Gumroad is a data processor for purchase-related data and we
      are the data controller. We have entered into a Data Processing
      Agreement with Gumroad. Gumroad's privacy policy is available at
@@ -166,21 +176,25 @@ Bowdler software ("Software").
    - Data portability: receive personal data in a structured, commonly
      used, machine-readable format (JSON or CSV).
    - Object to processing based on legitimate interest.
+   - Make a complaint to us (the data controller) under section 164A of
+     the Data Protection Act 2018.
 
-   To exercise these rights, contact contact@bowdler.app. A response
-   shall be provided within one month of receipt.
+   To exercise these rights, or to make a complaint to us, contact
+   contact@bowdler.app. A response shall be provided within one month of
+   receipt.
 
 8. RIGHT TO COMPLAIN
 
-   Where processing is considered unlawful, a complaint may be lodged with
-   the competent supervisory authority (e.g., the ICO).
+   Where processing is considered unlawful, you may make a complaint to us
+   under section 164A of the Data Protection Act 2018, or lodge a complaint
+   with the competent supervisory authority (e.g., the ICO) under section 165
+   of the Data Protection Act 2018.
 
 9. DATA BREACH NOTIFICATION
 
    In the event of a personal data breach likely to result in high risk
    to your rights and freedoms, the data subject shall be notified
-   without undue delay and, where feasible, no later than 72 hours after
-   detection of the breach.
+   without undue delay.
 
 10. AUTOMATED DECISION-MAKING
 
@@ -195,12 +209,12 @@ Bowdler software ("Software").
    transfer to Gumroad, Inc.
 
    During update checks, connection metadata, including IP address, may
-   be transferred to GitHub, Inc. in the United States. GitHub participates in the EU-US Data Privacy Framework,
-   which the European Commission has recognised as providing adequate
-   safeguards for personal data transfers under GDPR Article 46. As a
+   be transferred to GitHub, Inc. in the United States. GitHub participates in the UK Extension to the EU-US Data Privacy Framework (UK-US Data Bridge),
+   which the UK Government has recognised as providing adequate
+   safeguards for personal data transfers under UK GDPR Article 46. As a
    supplementary measure, GitHub's Data Processing Agreement incorporates
    the UK Addendum to the Standard Contractual Clauses (SCCs). Further
-   information is available at https://github.com/privacy.
+   information is available at https://github.com/site/privacy.
 
 12. CHILDREN'S PRIVACY
 
@@ -211,7 +225,7 @@ Bowdler software ("Software").
 
     This Privacy Notice is subject to amendment. The current version is
     available in the legal directory of the Software and at
-    https://bowdler.app/privacy.
+    https://bowdler.app/legal.
 
 14. CONTACT
 
