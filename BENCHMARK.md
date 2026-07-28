@@ -29,11 +29,11 @@
 | Whisper Small | 1490 | 30 | 3.39% | 2.13% | 31.4s | 0.038 |
 | Whisper Base | 1488 | 30 | 5.15% | 2.71% | 129.0s | 0.156 |
 | Whisper Tiny | 1535 | 31 | 11.53% | 6.11% | 10.8s | 0.013 |
-| Whisper Medium (not chunked) | 1477 | 121 | 2.56% | 1.77% | 84.7s | 0.102 |
 | Whisper Large v3 (not chunked) | 1481 | 133 | 2.02% | 1.61% | 207.1s | 0.250 |
-| Whisper Tiny (not chunked) | 1485 | 30 | 5.49% | 2.43% | 7.4s | 0.009 |
-| Whisper Base (not chunked) | 1487 | 30 | 5.22% | 2.78% | 10.8s | 0.013 |
+| Whisper Medium (not chunked) | 1477 | 121 | 2.56% | 1.77% | 84.7s | 0.102 |
 | Whisper Small (not chunked) | 1477 | 30 | 3.73% | 2.18% | 33.9s | 0.041 |
+| Whisper Base (not chunked) | 1487 | 30 | 5.22% | 2.78% | 10.8s | 0.013 |
+| Whisper Tiny (not chunked) | 1485 | 30 | 5.49% | 2.43% | 7.4s | 0.009 |
 | Parakeet TDT 0.6B Q4_K | 1426 | 29 | 8.95% | 6.91% | 42.2s | 0.051 |
 | Parakeet TDT 0.6B Q8_0 | 1434 | 29 | 7.46% | 5.72% | 38.0s | 0.046 |
 | Parakeet TDT 1.1B Q4_K | 1501 | 31 | 5.02% | 3.81% | 50.4s | 0.061 |
@@ -52,11 +52,11 @@
 | Whisper Small | 4138 | 83 | 3.89% | 2.52% | 113.4s | 0.076 |
 | Whisper Base | 4129 | 83 | 5.29% | 3.51% | 35.1s | 0.024 |
 | Whisper Tiny | 4154 | 84 | 8.53% | 5.63% | 25.4s | 0.017 |
-| Whisper Medium (not chunked) | 4131 | 403 | 3.51% | 2.33% | 228.7s | 0.153 |
 | Whisper Large v3 (not chunked) | 4172 | 355 | 3.63% | 2.70% | 422.0s | 0.283 |
-| Whisper Tiny (not chunked) | 4144 | 83 | 7.03% | 4.29% | 36.8s | 0.025 |
-| Whisper Base (not chunked) | 4129 | 83 | 5.29% | 3.51% | 50.0s | 0.034 |
+| Whisper Medium (not chunked) | 4131 | 403 | 3.51% | 2.33% | 228.7s | 0.153 |
 | Whisper Small (not chunked) | 4138 | 83 | 3.89% | 2.52% | 148.7s | 0.100 |
+| Whisper Base (not chunked) | 4129 | 83 | 5.29% | 3.51% | 50.0s | 0.034 |
+| Whisper Tiny (not chunked) | 4144 | 83 | 7.03% | 4.29% | 36.8s | 0.025 |
 | Parakeet TDT 0.6B Q4_K | 4486 | 90 | 10.29% | 7.31% | 61.2s | 0.041 |
 | Parakeet TDT 0.6B Q8_0 | 4488 | 90 | 10.56% | 7.43% | 101.5s | 0.068 |
 | Parakeet TDT 1.1B Q4_K | 4176 | 84 | 5.32% | 3.96% | 98.3s | 0.066 |
@@ -75,11 +75,11 @@
 | Whisper Small | 6590 | 688 | 4.30% | 2.89% | 210.4s | 0.076 |
 | Whisper Base | 6556 | 684 | 5.53% | 3.53% | 74.1s | 0.027 |
 | Whisper Tiny | 6568 | 690 | 7.49% | 4.56% | 46.4s | 0.017 |
-| Whisper Tiny (not chunked) | 6561 | 688 | 7.01% | 4.30% | 31.2s | 0.011 |
-| Whisper Base (not chunked) | 6529 | 669 | 5.36% | 3.38% | 50.8s | 0.018 |
-| Whisper Small (not chunked) | 6524 | 644 | 4.15% | 2.96% | 154.7s | 0.056 |
-| Whisper Medium (not chunked) | 6537 | 730 | 3.35% | — | 484.1s | 0.176 |
 | Whisper Large v3 (not chunked) | — | — | **TIMEOUT** | — | — | — |
+| Whisper Medium (not chunked) | 6537 | 730 | 3.35% | — | 484.1s | 0.176 |
+| Whisper Small (not chunked) | 6524 | 644 | 4.15% | 2.96% | 154.7s | 0.056 |
+| Whisper Base (not chunked) | 6529 | 669 | 5.36% | 3.38% | 50.8s | 0.018 |
+| Whisper Tiny (not chunked) | 6561 | 688 | 7.01% | 4.30% | 31.2s | 0.011 |
 | Parakeet TDT 0.6B Q4_K | 6711 | 427 | 9.72% | 6.95% | 115.9s | 0.042 |
 | Parakeet TDT 0.6B Q8_0 | 6707 | 436 | 9.77% | 6.88% | 133.4s | 0.048 |
 | Parakeet TDT 1.1B Q4_K | 6636 | 513 | 6.01% | 4.52% | 181.8s | 0.066 |
