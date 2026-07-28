@@ -8,9 +8,23 @@
 
 ---
 
+### ❗️❗️❗️
+
+### This README is now archived, as all key project information has been moved to the [bowdler.app](https://bowdler.app) website.
+
+### App updates & patch notes will continue to be released [here](https://github.com/whyaang/Bowdler/releases).
+
+### Bowdler is not an open-source application.
+
+### You can purchase an official license on [Gumroad](https://whyaang.gumroad.com/l/bowdler).
+
+### ❗️❗️❗️
+
+---
+
 Creativity dies in the timeline. Every hour lost to repetitive edits, every task that pulls you away from the actual content - that's energy that should go into your next video.
 
-Bowdler automates and simplifies the whole editing routine using simple tools and local AI: silence, transcript, subtitles, censorship, all processed on your Mac in minutes. 32 languages supported across all modes. You keep the craft.
+Bowdler automates and simplifies the whole editing routine using simple tools and local AI: silence, transcript, subtitles, censorship, all processed on your Mac in minutes. You keep the craft.
 
 ---
 
@@ -129,105 +143,15 @@ Bowdler runs locally on Apple Silicon, so no internet connection required, no cl
 
 <div align="center">
 
-![How it compares](images/howitcompares.png)
-
-</div>
-
-Cloud tools make you wait, limit your media hours, and charge monthly. Local tools like Recut and Timebolt are fast but do one or two things. Bowdler does all of it: silence removal, transcript editing, subtitles, censorship, filler words, bad takes - locally, for **$49 once**. The transcription engine is Whisper - the same model that powers most cloud tools, optimized for Apple Silicon. The difference is that it runs on your machine, not theirs.
-
-<div align="left">
-
-![Table](images/compare.png)
-
-*Timebolt's silence detection is local. Filler word removal & Subtitle generator (Umcheck) sends audio to AWS and is billed separately on top of any plan, including lifetime.*
-
-*Descript supports 26 languages - Latin alphabet only: Chinese, Japanese, Russian and Arabic are not supported.*
-
-*Prices as of April 2026. Bowdler lifetime price includes all future updates. Current price may increase as new features ship.*
-
-</div>
-
----
-
-<div align="center">
-
-<a href="https://whyaang.gumroad.com/l/bowdler">
-  <img src="images/cta.png"/>
-</a>
-
-</div>
-
----
-
-<div align="center">
-
 ![Download](images/download.png)
 
 </div>
 
-### [📥 Bowdler 2.6.0.dmg](https://github.com/whyaang/Bowdler/releases/download/v2.6.0/Bowdler_2.6.0_aarch64.dmg) - July 2th, 2026 · 397 MB
+### [📥 Bowdler.dmg](https://bowdler.app/download/)
 
 Download, open DMG, drag to Applications, enter your license key. That's it.
 
-> **Requires macOS 13.3 or later with Apple Silicon (M1 or later).** Intel Macs are not supported.
-
-<details>
-<summary><b>What's new in 2.6.0</b></summary>
-
-<br>
-
-## App Bundle
-- The app now ships with cleaned and signed Python libraries built in.
-- .dmg and .tar.gz have been compressed to minimal sizes — 396MB / 354MB.
-- The app itself is now 956MB.
-
-## Free Trial
-- Free Trial now uses SEP + the Bowdler API for activation. 8 trial exports are available per device. Devices without SEP are not officially supported.
-
-## License
-- License validation now happens through the Bowdler API.
-- Each license is now bound to a device via SEP. Devices can be unlinked from a license once every two months at bowdler.app/key (launching soon).
-- All existing devices will be automatically re-linked.
-
-## Censorship
-- Video export now replaces only the audio track, preserving all original video properties and metadata tags.
-
-## Batch Processing
-- Silence Removal, Subtitle Generator, and Profanity Censorship now have a new batch handler that lets you choose the output file format (previously video export only).
-
-## New Parakeet models
-- 6 Parakeet models are now available for processing.
-- Parakeet models are not available in the Free Trial.
-
-## FCPXML Export
-- Video formats with embedded timecode are now supported.
-- Fixed video resolution detection.
-
-## Under the Hood
-- Whisper processing is now faster (partially rewritten in Rust).
-- Parakeet processing is now implemented in Rust.
-- Improved app protection.
-- Sandbox architecture implemented for Python.
-- Improved translation quality.
-- Frontend fully optimized.
-- A new API using Go!
-- Mental breakdown. Just kidding :)
-
-## In Closed Testing
-- Animated Subtitles.
-- Transcript Edit tools in Multicam.
-- MCP Server (early stage).
-
-## Planned
-- Multicam workflows.
-- MLX Whisper 4-bit / 8-bit models.
-- Small workflow mode (e.g. Face Recognition, Audio Enhancement).
-- Ollama integration for LLM processing & automation.
-- FCPXML Import (actually, not sure about that).
-
-[View all changelogs →](https://github.com/whyaang/Bowdler/releases)
-
-</details>
+> **Requires macOS 14 or later with Apple Silicon (M1 or later).** Intel Macs are not supported.
 
 ---
 
@@ -237,32 +161,11 @@ Download, open DMG, drag to Applications, enter your license key. That's it.
 
 </div>
 
-**[FAQ](FAQ.md)** & **[DOCS](DOCS.md)** - all settings explained, AI models info, frequently asked questions.
+**[FAQ](https://bowdler.app/docs/)** - all settings explained, AI models info, frequently asked questions.
 
 **Help menu** in the macOS menu bar - send a bug report, ask a question, or request a feature directly from the app.
 
-**[whyaang@gmail.com](mailto:whyaang@gmail.com)** - typically respond within 24–48 hours.
-
----
-
-<div align="center">
-
-![Affiliate](images/affiliate.png)
-
-</div>
-
-If you make content about video editing, macOS apps, productivity, or Final Cut Pro and you have an audience that **trusts** your recommendations - let's work together. **You talk about it - I make sure it's worth talking about.**
-
-**Your audience gets 10% off. You get 40% of every sale. Forever.**
-
-No minimum follower count. Any language. What matters is that your audience is relevant: creators, editors, podcasters, educators, anyone who spends time cutting video on a Mac. A YouTube channel, a focused newsletter, a podcast, a Discord community, TikTok - all of these work.
-
-**When you apply, include:**
-- Where your content lives (YouTube, newsletter, podcast, social, etc.) & links
-- A short description of your audience and what content you make
-- Why you think Bowdler would be useful to them
-
-Apply at [whyaang.gumroad.com/affiliates](https://whyaang.gumroad.com/affiliates)
+**[contact@bowdler.com](mailto:contact@bowdler.app)** - typically respond within 24–48 hours.
 
 ---
 
